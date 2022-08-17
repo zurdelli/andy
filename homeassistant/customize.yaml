@@ -1,0 +1,56 @@
+person.andy:
+  entity_picture: "/local/yo.jpg"
+sensor.dark_sky_temperature:
+  friendly_name: Temp
+sensor.dark_sky_precip_probability:
+  friendly_name: Prob Lluvia
+sensor.dark_sky_precip_probability_0d:
+  friendly_name: Prob lluvia hoy
+sensor.dark_sky_precip_probability_1h:
+  friendly_name: Prob lluvia 1h
+sensor.dark_sky_daily_max_precip_intensity_0d:
+  friendly_name: Max intensidad lluvia hoy
+sensor.dark_sky_hourly_summary: 
+  friendly_name: Resumen clima
+sensor.dark_sky_humidity:
+  friendly_name: Humedad
+sensor.dark_sky_humidity_0d:
+  friendly_name: Humedad hoy
+sensor.dark_sky_overnight_low_temperature_0d:
+  friendly_name: Minima hoy
+sensor.dark_sky_daytime_high_temperature_0d:
+  friendly_name: Maxima hoy
+sensor.dark_sky_summary_1h:
+  friendly_name: Resumen clima 1h
+sensor.dark_sky_apparent_temperature:
+  friendly_name: Sens térmica
+sensor.ender_3_actual_tool0_temp:
+  friendly_name: Extrusor ahora
+sensor.ender_3_current_state:
+  friendly_name: Estado
+sensor.ender_3_job_percentage:
+  friendly_name: Porcentaje
+sensor.ender_3_target_tool0_temp:
+  friendly_name: Extrusor target
+sensor.ender_3_time_elapsed:
+  friendly_name: Tiempo transcurrido
+sensor.ender_3_time_remaining:
+  friendly_name: Tiempo restante
+sensor.sagemcom_f_st5657_b_received:
+  friendly_name: bits recibidos
+sensor.sagemcom_f_st5657_b_sent:
+  friendly_name: bits enviados
+sensor.sagemcom_f_st5657_kib_s_received:
+  friendly_name: kb/s recibidos
+sensor.sagemcom_f_st5657_kib_s_sent:
+  friendly_name: kb/s enviados
+sensor.sagemcom_f_st5657_packets_received:
+  friendly_name: paquetes recibidos
+sensor.sagemcom_f_st5657_packets_s_received:
+  friendly_name: paquetes/s recibidos
+sensor.sagemcom_f_st5657_packets_sent:
+  friendly_name: paquetes enviados
+sensor.sagemcom_f_st5657_packets_s_sent:
+  friendly_name: paquetes/s enviados
+binary_sensor.0x00158d00043169e9_contact:
+  friendly_name: Puerta

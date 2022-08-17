@@ -1,0 +1,191 @@
+telegram_clima:
+  sequence: 
+    - service: telegram_bot.send_photo
+      data_template:
+        file: 
+          "{% if is_state('weather.dark_sky', 'rainy') %}
+          /config/www/Clima/lluvioso.png
+          {% elif is_state('weather.dark_sky', 'cloudy') %}
+          /config/www/Clima/nublado.png
+          {% elif is_state('weather.dark_sky', 'partlycloudy') %}
+          /config/www/Clima/nublado.png
+          {% elif is_state('weather.dark_sky', 'sunny') %}
+          /config/www/Clima/soleado.png 
+          {% elif is_state('weather.dark_sky', 'windy') %}
+          /config/www/Clima/ventoso.png
+          {% elif is_state('weather.dark_sky', 'clear-night') %}
+          /config/www/Clima/nochedespejada.png
+          {% elif is_state('weather.dark_sky', 'pouring') %}
+          /config/www/Clima/vientormenta.png
+          {% endif %}"
+        caption: >
+          {% if is_state('weather.dark_sky', 'rainy') %}
+          Lluvia
+          {% elif is_state('weather.dark_sky', 'cloudy') %}
+          Nublado
+          {% elif is_state('weather.dark_sky', 'partlycloudy') %}
+          Parcialmente Nublado
+          {% elif is_state('weather.dark_sky', 'sunny') %}
+          Soleado
+          {% elif is_state('weather.dark_sky', 'windy') %}
+          Ventoso
+          {% elif is_state('weather.dark_sky', 'clear-night') %}
+          Noche despejada
+          {% elif is_state('weather.dark_sky', 'pouring') %}
+          Torrencial
+          {% else %}
+          {{ states('weather.dark_sky') }}
+          {% endif %}
+          
+          Temperatura: {{ state_attr('weather.dark_sky', 'temperature') }}ºC - 
+          Sensación Térmica: {{ states( 'sensor.dark_sky_apparent_temperature' ) }}ºC
+          
+          Humedad: {{ state_attr('weather.dark_sky', 'humidity') }}% 
+          
+          Velocidad del viento: {{ state_attr('weather.dark_sky', 'wind_speed') }} km/h
+          
+          Máxima: {{ states( 'sensor.dark_sky_daytime_high_temperature_0d' ) }}ºC - 
+          Mínima: {{ states( 'sensor.dark_sky_overnight_low_temperature_0d' ) }}ºC
+          
+          Prob lluvia: {{ states( 'sensor.dark_sky_precip_probability_0d' ) }}% - 
+          Intensidad: {{ states( 'sensor.dark_sky_precip_intensity_0d' ) }}
+          
+        inline_keyboard: >
+          Clima de mañana:/manana, Alarma{% if is_state('automation.despertador', 'off') %} Apagada {% else %} Encendida {% endif %} :/dalarma 
+
+
+radio:
+    alias: Reproduce radio en Speaker
+    sequence:
+    -  service: media_player.play_media
+       data_template:
+           entity_id: media_player.dormitorio_principal
+           media_content_id: >
+            {% if is_state("input_select.radio_station", "Mega 98.3") %} http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+            {% elif is_state("input_select.radio_station", "Estacion del Sol") %} http://audio.bustream.com:8064/stream
+            {% elif is_state("input_select.radio_station", "Los 40 principales") %} https://21233.live.streamtheworld.com/LOS40AAC.aac
+            {% elif is_state("input_select.radio_station", "Radio Brava") %} http://stream.100p.nl/100pctnl.mp3
+            {% elif is_state("input_select.radio_station", "Radio 2 103.1") %} http://8543.live.streamtheworld.com/VERONICACMP3
+            {% elif is_state("input_select.radio_station", "Radio A") %} http://8623.live.streamtheworld.com:80/SKYRADIOAAC_SC
+            {% endif %}
+           media_content_type: 'audio/mp4' 
+    - delay: 2
+    - service: media_player.media_pause
+      entity_id: media_player.dormitorio_principal
+    - delay: 1
+    - service: media_player.media_play
+      entity_id: media_player.dormitorio_principal
+               
+alarma:
+  sequence:
+    # - service: light.turn_on
+      # data_template:
+        # brightness: 150
+        # entity_id: light.mesa_luz
+        # color_name: > 
+          # {% if state_attr('weather.dark_sky', 'temperature') | float > 17 %} orange
+          # {% elif (state_attr('weather.dark_sky', 'temperature') | float) > 13 %} yellow
+          # {% elif (state_attr('weather.dark_sky', 'temperature') | float) > 7 %} cyan
+          # {% else %} white
+          # {% endif %}
+        # effect: >
+          # {% if is_state('weather.dark_sky', 'rainy') %} twinkle
+          # {% else %} none
+          # {% endif %}
+    # - service: light.turn_on
+      # data:
+        # entity_id: light.kyz
+    # - service: spotcast.start
+      # data_template:
+        # entity_id: media_player.dormitorio_principal
+        # uri: >
+          # {% if is_state("sensor.spotrandom", "1") %} spotify:playlist:37i9dQZF1DWZjqjZMudx9T
+          # {% elif is_state("sensor.spotrandom", "2") %} spotify:playlist:37i9dQZF1DX0XUsuxWHRQd
+          # {% elif is_state("sensor.spotrandom", "3") %} spotify:playlist:37i9dQZF1DX8Kgdykz6OKj
+          # {% elif is_state("sensor.spotrandom", "4") %} spotify:playlist:3Ko3ivdre3jOU6qTIa5LKk
+          # {% elif is_state("sensor.spotrandom", "5") %} spotify:playlist:3Ko3ivdre3jOU6qTIa5LKk
+          # {% elif is_state("sensor.spotrandom", "6") %} spotify:playlist:37i9dQZF1DX8sljIJzI0oo
+          # {% elif is_state("sensor.spotrandom", "7") %} spotify:playlist:37i9dQZF1DWYN0zdqzbEwl
+          # {% elif is_state("sensor.spotrandom", "8") %} spotify:playlist:5wzQyPGcd4oMn7SSMIvwCW
+          # {% elif is_state("sensor.spotrandom", "9") %} spotify:playlist:37i9dQZF1DXdbXrPNafg9d
+          # {% elif is_state("sensor.spotrandom", "10") %} spotify:playlist:37i9dQZF1DWXubpwTwZH5E
+          # {% elif is_state("sensor.spotrandom", "11") %} spotify:playlist:37i9dQZF1DX4pUKG1kS0Ac
+          # {% elif is_state("sensor.spotrandom", "12") %} spotify:playlist:2TtiBpa3rui1ciR6zKOmDu
+          # {% elif is_state("sensor.spotrandom", "13") %} spotify:playlist:37i9dQZEVXbMfVLvbaC3bj
+          # {% elif is_state("sensor.spotrandom", "14") %} spotify:playlist:37i9dQZF1DWY4xHQp97fN6
+          # {% else %} spotify:playlist:2TtiBpa3rui1ciR6zKOmDu
+          # {% endif %}
+        # random_song: true
+    - service: script.turn_on
+      entity_id: script.radio
+    - service: media_player.volume_set
+      data:
+        entity_id: media_player.dormitorio_principal
+        volume_level: 0.3
+
+
+
+
+
+
+
+       
+
+
+
+mqtt1:
+  alias: 'Set on Solid Color Mode'
+  sequence:
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 1
+       
+mqtt2:
+  alias: 'Set on Palette'
+  sequence:
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 2
+
+mqtt3:
+  alias: 'Set on Effects mode'
+  sequence:
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 3
+       
+mqtt4:
+  alias: 'Change Sequence'
+  sequence:
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 4
+       
+mqtt5:
+  alias: 'Turn On'
+  sequence:
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 5
+
+mqtt6:
+  alias: 'Turn Off'
+  sequence:
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 6
+
+entrando:
+  alias: entrando
+  sequence:
+   - delay: 30
+   - service: mqtt.publish
+     data:
+       topic: "ledwallin"
+       payload: 6

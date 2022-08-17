@@ -1,0 +1,181 @@
+__version: 1.8.2
+file_check:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 1fd5482b4fa54235531810fa4bf95620
+  information:
+    local:
+      name: 2021.2.23
+      value: 2021.2.23
+    needs_online: true
+    remote:
+      name: 2021.2.23
+      release_notes: https://github.com/OctoPrint/OctoPrint-FileCheck/releases/tag/2021.2.23
+      value: 2021.2.23
+  online: true
+  possible: true
+  timestamp: 1660594980.7771688
+firmware_check:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 2cc0c5c664767763a036f68d2318d063
+  information:
+    local:
+      name: 2021.10.11
+      value: 2021.10.11
+    needs_online: true
+    remote:
+      name: 2021.10.11
+      release_notes: https://github.com/OctoPrint/OctoPrint-FirmwareCheck/releases/tag/2021.10.11
+      value: 2021.10.11
+  online: true
+  possible: true
+  timestamp: 1660594980.8113012
+mqtt:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 073d7fa6c54ab639f80737e2e37d445a
+  information:
+    local:
+      name: 0.8.13
+      value: 0.8.13
+    needs_online: true
+    remote:
+      name: 0.8.13
+      release_notes: https://github.com/OctoPrint/OctoPrint-MQTT/releases/tag/0.8.13
+      value: 0.8.13
+  online: true
+  possible: true
+  timestamp: 1660594980.835324
+mqttsubscribe:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 4e3b97674a10ed54f713d042ad177f7e
+  information:
+    local:
+      name: 0.1.7
+      value: 0.1.7
+    needs_online: true
+    remote:
+      name: 0.1.7
+      release_notes: https://github.com/jneilliii/OctoPrint-MQTTSubscribe/releases/tag/0.1.7
+      value: 0.1.7
+  online: true
+  possible: true
+  timestamp: 1660594980.830024
+octoprint:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 11b2cefcffb7dee66043a97f408763c9
+  information:
+    local:
+      name: 1.8.2
+      value: 1.8.2
+    needs_online: true
+    remote:
+      name: 1.8.2
+      release_notes: https://github.com/OctoPrint/OctoPrint/releases/tag/1.8.2
+      value: 1.8.2
+  online: true
+  possible: true
+  timestamp: 1660594980.9128442
+pi_support:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 1ea7e04c5433cc6e5eb70fbf3a11231e
+  information:
+    local:
+      name: 2022.6.13
+      value: 2022.6.13
+    needs_online: true
+    remote:
+      name: 2022.6.13
+      release_notes: https://github.com/OctoPrint/OctoPrint-PiSupport/releases/tag/2022.6.13
+      value: 2022.6.13
+  online: true
+  possible: true
+  timestamp: 1660594981.6452978
+psucontrol:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 2babc2279d0980b275e72268e3ba968b
+  information:
+    local:
+      name: 1.0.6
+      value: 1.0.6
+    needs_online: true
+    remote:
+      name: 1.0.6
+      release_notes: https://github.com/kantlivelong/OctoPrint-PSUControl/releases/tag/1.0.6
+      value: 1.0.6
+  online: true
+  possible: true
+  timestamp: 1660594981.8800032
+psucontrol_homeassistant:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: f6c597a4a54224b07332f37258352de4
+  information:
+    local:
+      name: 1.0.5
+      value: 1.0.5
+    needs_online: true
+    remote:
+      name: 1.0.5
+      release_notes: https://github.com/edekeijzer/OctoPrint-PSUControl-HomeAssistant/releases/tag/1.0.5
+      value: 1.0.5
+  online: true
+  possible: true
+  timestamp: 1660594982.0606558
+telegram:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 69b3512227db389867e8ac2f70c54c17
+  information:
+    local:
+      name: 1.6.5
+      value: 1.6.5
+    needs_online: true
+    remote:
+      name: Octoprint Telegram 1.6.5
+      release_notes: https://github.com/fabianonline/OctoPrint-Telegram/releases/tag/1.6.5
+      value: 1.6.5
+  online: true
+  possible: true
+  timestamp: 1660594981.5956464
+touchui:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 737073f22310fa68b07362cb9aafca83
+  information:
+    local:
+      name: 0.3.18
+      value: 0.3.18
+    needs_online: true
+    remote:
+      name: 0.3.18
+      release_notes: https://github.com/BillyBlaze/OctoPrint-TouchUI/releases/tag/0.3.18
+      value: 0.3.18
+  online: true
+  possible: true
+  timestamp: 1660594981.665261

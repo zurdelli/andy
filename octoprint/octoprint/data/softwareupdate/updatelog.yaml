@@ -1,0 +1,40 @@
+- current_version: 1.7.2
+  datetime: '2022-08-15 20:21:02'
+  display_name: OctoPrint
+  release_notes: https://github.com/OctoPrint/OctoPrint/releases/tag/1.8.2
+  success: true
+  target: octoprint
+  target_version: 1.8.2
+  text: Update successful
+- current_version: 0.8.12
+  datetime: '2022-08-15 20:21:21'
+  display_name: MQTT
+  release_notes: https://github.com/OctoPrint/OctoPrint-MQTT/releases/tag/0.8.13
+  success: true
+  target: mqtt
+  target_version: 0.8.13
+  text: Update successful
+- current_version: 0.1.6
+  datetime: '2022-08-15 20:21:43'
+  display_name: MQTT Subscribe
+  release_notes: https://github.com/jneilliii/OctoPrint-MQTTSubscribe/releases/tag/0.1.7
+  success: true
+  target: mqttsubscribe
+  target_version: 0.1.7
+  text: Update successful
+- current_version: 2021.10.28
+  datetime: '2022-08-15 20:21:57'
+  display_name: Pi Support Plugin
+  release_notes: https://github.com/OctoPrint/OctoPrint-PiSupport/releases/tag/2022.6.13
+  success: true
+  target: pi_support
+  target_version: 2022.6.13
+  text: Update successful
+- current_version: 1.0.4
+  datetime: '2022-08-15 20:22:17'
+  display_name: PSU Control - Home Assistant
+  release_notes: https://github.com/edekeijzer/OctoPrint-PSUControl-HomeAssistant/releases/tag/1.0.5
+  success: true
+  target: psucontrol_homeassistant
+  target_version: 1.0.5
+  text: Update successful

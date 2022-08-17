@@ -1,0 +1,293 @@
+- id: despertador
+  alias: Despertador
+  description: Enciende la alarma e informa del clima mediante Telegram
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (state_attr('input_datetime.only_time', 'timestamp') | int | timestamp_custom('%H:%M', False)) }}"
+  #condition:
+  #- condition: time
+    #weekday:
+    #- mon
+    #- tue
+    #- wed
+    #- thu
+    #- fri
+    #- sat
+  action:
+  - service: script.turn_on
+    entity_id: script.alarma
+  - entity_id: script.telegram_clima
+    service: script.turn_on
+ 
+- id: 'setAlarm'
+  alias: Set Alarm
+  description: Crea la alarma en 8 hs cuando presiono el boton en esphome
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.boton
+    from: 'on'
+    to: 'off'
+  action:
+  - service: input_datetime.set_datetime
+    entity_id: input_datetime.only_time
+    data:
+      time: "{{ (now()+ timedelta(hours=8)).strftime('%H:%M') }}"
+  - service: automation.toggle
+    entity_id: automation.despertador      
+ 
+- id: 'motionLightNoche'
+  alias: motionLightNoche
+  description: Turn on SmartSensor's light when motion detected at night
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.pir_sensor
+      from: 'off'
+      to: 'on'
+  condition:
+   - condition: time
+     after: '23:00:00'
+     before: '08:00:00'
+  action:
+    - service: light.turn_on
+      entity_id: light.luzcostao
+    - delay: 30
+    - service: light.turn_off
+      entity_id: light.luzcostao  
+    
+
+
+################################## ENDER 3 ###################################
+
+# - id: 'enderoff'
+  # alias: enderoff
+  # description: Apaga la impresora cuando termina una impresion
+  # trigger:
+   # - platform: state
+     # entity_id: sensor.ender_3_current_state
+     # from: 'Printing'
+     # to: 'Operational'
+   # - platform: event
+     # event_type: telegram_callback
+     # event_data:
+       # data: /enderoff
+  # action:
+  # - delay: '00:04'
+  # - service: switch.turn_off
+    # entity_id: switch.rele
+  # - service: light.turn_off
+    # entity_id: light.33832360bcddc2395b1e
+     
+- id: 'togglePowerPrinter'
+  alias: togglePowerPrinter
+  description: Toggle relay trough MQTT or GPIO Button
+  trigger:
+    - platform: mqtt
+      topic: "printer/relay/switch"
+      payload: "on"
+      encoding: "utf-8"
+    - platform: state
+      entity_id: binary_sensor.amr1
+      from: 'on'
+      to: 'off'
+    - platform: event
+      event_type: telegram_command
+      event_data:
+        command: "/enderoff"
+  action:
+  - service: switch.toggle
+    entity_id: switch.rele1
+  - delay: '00:00:10'
+  - service: mqtt.publish
+    data:
+      topic: "octoprint/mqtt/connection/connect"
+      
+- id: 'toggleLightPrinter'
+  alias: toggleLightPrinter
+  description: Toggle Led Light trough MQTT or GPIO Button
+  trigger:
+    - platform: mqtt
+      topic: "printer/relay/light"
+      payload: "toggle"
+      encoding: "utf-8"
+    - platform: state
+      entity_id: binary_sensor.amr2
+      from: 'on'
+      to: 'off'
+  action:
+  - service: mqtt.publish
+    data:
+      topic: "octoprint/mqtt/ledlight"
+
+# - id: endernotify
+  # alias: endernotify
+  # description: Send Ender 3 current status by telegram
+  # trigger:
+   # - platform: state
+     # entity_id: sensor.ender_3_current_state
+     # from: 'Printing'
+     # to: 'Operational'
+  # action:
+  # - service: automation.trigger
+    # entity_id: automation.envia_foto_a_traves_de_telegram
+  # - service: telegram_bot.send_message
+    # data_template:
+      # title: 'Impresion Finalizada'
+      # message: >
+        # Tiempo: {{ states( 'sensor.ender_3_time_elapsed' ) }} segundos
+  # - service: automation.trigger
+    # entity_id: automation.tel_e3status
+
+    
+# - id: tel_e3status
+  # alias: tel_e3status
+  # trigger:
+   # - platform: event
+     # event_type: telegram_command
+     # event_data:
+       # command: "/status" 
+  # action:
+  # - service: automation.trigger
+    # entity_id: automation.envia_foto_a_traves_de_telegram
+  # - service: telegram_bot.send_message
+    # data_template:
+      # title: 'Current Status'
+      # message: >
+        # Estado: {{ states( 'sensor.ender_3_current_state' ) }}
+        
+        # Hotend: {{ states( 'sensor.ender_3_actual_tool0_temp' ) }} Target -> {{ states( 'sensor.ender_3_target_tool0_temp' ) }}
+        
+        # Porcentaje: {{ states( 'sensor.ender_3_job_percentage' ) }}
+        
+        # AutoOFF: {{ states( 'automation.automation_2' ) }}
+      # keyboard:
+       # - /status, /enderoff, /autoOFF, 
+       # - /prepla, /prepetg, /cooldown
+     
+# - id: tel_enviar_foto
+  # alias: 'tel_enviar_foto'
+  # trigger:
+    # - platform: event
+      # event_type: telegram_command
+      # event_data:
+        # command: "/foto"
+  # action:
+   # - service: telegram_bot.send_photo
+     # data_template:
+       # url: http://192.168.1.13:8080/photo.jpg
+
+
+- id: tel_ender3_cooldown
+  alias: 'e3_cooldown'
+  trigger:
+    - platform: event
+      event_type: telegram_command
+      event_data:
+        command: "/cooldown"
+  action:
+   - service: mqtt.publish
+     data:
+       topic: "octoprint/mqtt/hotend/cooldown"
+   - service: telegram_bot.send_message
+     data_template:
+       message: >
+         Ok. Cooldown Iniciado
+
+- id: tel_ender3_preheatpla
+  alias: 'e3_prePLA'
+  trigger:
+    - platform: event
+      event_type: telegram_command
+      event_data:
+        command: "/prepla"
+    - platform: state
+      entity_id: binary_sensor.amr3
+      from: 'on'
+      to: 'off'      
+  action:
+   - service: mqtt.publish
+     data:
+       topic: "octoprint/mqtt/hotend/preheatpla"
+   - service: telegram_bot.send_message
+     data_template:
+       message: >
+         Ok. Preheat PLA iniciado
+       inline_keyboard: >
+         Cancelar:/cooldown
+
+- id: tel_ender3_preheatpetg
+  alias: 'e3_prePETG'
+  trigger:
+    - platform: event
+      event_type: telegram_command
+      event_data:
+        command: "/prepetg"
+  action:
+   - service: mqtt.publish
+     data:
+       topic: "octoprint/mqtt/hotend/preheatpetg"
+   - service: telegram_bot.send_message
+     data_template:
+       message: >
+         Ok. Preheat PETG iniciado
+       inline_keyboard:
+         - "Cancelar:/cooldown"
+
+################################## ENDER 3 ###################################
+
+
+- id: luzentrandoacasa
+  description: Turn on light when entering at home at night
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.0x00158d00043169e9_contact
+      from: 'off'
+      to: 'on'
+  condition:
+    condition: and
+    conditions:
+       - condition: time
+         after: '20:00:00'
+         before: '08:00:00'
+       - condition: state
+         entity_id: script.entrando
+         state: 'on'
+  action:
+    - service: light.turn_on
+      entity_id: light.mesaluz
+    - delay: 60
+    - service: light.turn_off
+      entity_id: light.mesaluz
+      
+
+- id: entrandoacasa
+  alias: enteringhome
+  trigger:
+    - platform: state
+      entity_id: 
+        - device_tracker.pocox3
+        - device_tracker.zte2
+      from: 'not_home'
+      to: 'home'
+  action:
+    - service: script.turn_on
+      entity_id: script.entrando
+    - delay: 30
+    - service: script.turn_off
+      entity_id: script.entrando
+      
+
+- id: encendidoLedWall
+  alias: Encendido led wall
+  description: Enciende lampara ledwall cuando estamos viendo kodi
+  trigger:
+    - platform: state
+      entity_id: media_player.tvsalon
+      from: 'idle'
+      to: 'playing'
+  condition:
+   - condition: time
+     after: '20:30:00'
+  action:
+    - service: script.turn_on
+      entity_id: script.mqtt5
+      

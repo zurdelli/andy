@@ -1,0 +1,308 @@
+2022-05-28 08:18:07,994 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 08:18:07,999 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2022-05-28 08:18:08,000 - octoprint.server - INFO - OctoPrint 1.7.2
+2022-05-28 08:18:08,006 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.12) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2021.10.28) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.4) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-05-28 08:18:08,022 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-05-28 08:18:08,022 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2022-05-28 08:22:18,529 - octoprint.util.comm - INFO - Cancelling job on behalf of user andy
+2022-05-28 08:22:18,537 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2022-05-28 08:22:18,584 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: Lamparas/PLRGB/BIG/7H-TOP.gcode, owner: andy, user: andy
+2022-05-28 08:22:19,943 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2022-05-28 08:22:21,368 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x6e020af0>: Failed to establish a new connection: [Errno 113] No route to host'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x6e020af0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x6e020af0>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x6e020af0>: Failed to establish a new connection: [Errno 113] No route to host'))
+2022-05-28 08:22:52,088 - octoprint.printer.standard.job - INFO - Print job deselected - user: n/a
+2022-05-28 08:23:00,678 - octoprint.filemanager.analysis - INFO - Starting analysis of local:Lamparas/PLRGB/BIG/7H-TOP.gcode
+2022-05-28 08:23:00,680 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/Lamparas/PLRGB/BIG/7H-TOP.gcode
+2022-05-28 08:23:18,067 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: Lamparas/PLRGB/BIG/7H-TOP.gcode, owner: andy, user: andy
+2022-05-28 08:23:19,216 - octoprint.util.comm - INFO - Starting job on behalf of user andy
+2022-05-28 08:23:19,266 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2022-05-28 08:23:19,438 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: Lamparas/PLRGB/BIG/7H-TOP.gcode, owner: andy, user: andy
+2022-05-28 08:23:20,396 - octoprint.plugins.telegram.TMSG - INFO - get thumbnail url for path=Lamparas/PLRGB/BIG/7H-TOP.gcode
+2022-05-28 08:23:20,437 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-05-28 08:23:20,456 - octoprint.plugins.telegram.TMSG - INFO - thumbnail =None
+2022-05-28 08:23:20,505 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-05-28 08:23:20,621 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2022-05-28 08:33:07,995 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 08:34:50,468 - octoprint.plugins.telegram.listener - INFO - Got a command: '/abort' with parameter: '' in chat 901410451
+2022-05-28 08:34:51,554 - octoprint.plugins.telegram.listener - INFO - Got a command: '/abort' with parameter: 'stop' in chat 901410451
+2022-05-28 08:34:51,555 - octoprint.util.comm - INFO - Cancelling job on behalf of plugin telegram
+2022-05-28 08:34:51,560 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2022-05-28 08:34:51,577 - octoprint.filemanager.analysis - INFO - Starting analysis of local:Lamparas/PLRGB/BIG/7H-TOP.gcode
+2022-05-28 08:34:51,579 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/Lamparas/PLRGB/BIG/7H-TOP.gcode
+2022-05-28 08:34:51,616 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: Lamparas/PLRGB/BIG/7H-TOP.gcode, owner: andy, user: 
+2022-05-28 08:34:54,980 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x6c358808>: Failed to establish a new connection: [Errno 113] No route to host'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x6c358808>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x6c358808>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x6c358808>: Failed to establish a new connection: [Errno 113] No route to host'))
+2022-05-28 08:35:25,909 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2022-05-28 08:37:03,195 - octoprint.filemanager.analysis - INFO - Analysis of entry local:Lamparas/PLRGB/BIG/7H-TOP.gcode finished, needed 131.62s
+2022-05-28 08:41:25,878 - octoprint.plugins.psucontrol - INFO - Idle timeout reached after 6 minute(s). Turning heaters off prior to shutting off PSU.
+2022-05-28 08:41:25,879 - octoprint.plugins.psucontrol - INFO - Heaters below temperature.
+2022-05-28 08:41:25,889 - octoprint.plugins.psucontrol - INFO - Switching PSU Off
+2022-05-28 08:41:26,079 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Offline"
+2022-05-28 08:41:26,096 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-05-28 08:46:37,582 - tornado.general - WARNING - error on read: [Errno 113] No route to host
+2022-05-28 08:46:37,587 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.11
+2022-05-28 08:48:07,996 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 09:03:07,997 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 09:18:07,998 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 09:33:07,999 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 09:48:08,001 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 10:03:08,002 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 10:18:08,003 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 10:33:08,004 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 10:48:08,005 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 11:03:08,006 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 11:18:08,008 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 11:33:08,009 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 11:48:08,010 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 12:03:08,011 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 12:18:08,012 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 12:33:08,013 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 12:48:08,015 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 13:03:08,015 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 13:18:08,017 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 13:33:08,018 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 13:48:08,019 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 14:03:08,020 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 14:18:08,021 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 14:33:08,022 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 14:48:08,024 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 15:03:08,025 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 15:18:08,026 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 15:33:08,027 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 15:48:08,028 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 16:03:08,029 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 16:18:08,030 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 16:33:08,032 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 16:48:08,033 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 17:03:08,034 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 17:18:08,035 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 17:33:08,036 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 17:48:08,038 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 18:03:08,039 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 18:18:08,040 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 18:33:08,042 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 18:48:08,043 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 19:03:08,044 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 19:18:08,045 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 19:33:08,046 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 19:48:08,048 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 20:03:08,049 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 20:18:08,050 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 20:33:08,051 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 20:48:08,052 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 21:03:08,053 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 21:18:08,054 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 21:33:08,056 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 21:48:08,057 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 22:03:08,058 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 22:18:08,059 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 22:33:08,060 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 22:48:08,061 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 23:03:08,063 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 23:18:08,064 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 23:33:08,065 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-28 23:48:08,066 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 00:03:08,067 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 00:18:08,069 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 00:33:08,070 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 00:48:08,071 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 00:59:12,168 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-05-29 00:59:26,846 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Waiting 2 minutes before trying again.
+2022-05-29 01:03:08,072 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 01:18:08,073 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 01:33:08,074 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 01:48:08,075 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 01:59:19,608 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-05-29 02:03:08,077 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 02:18:08,078 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 02:33:08,079 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 02:48:08,080 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 03:03:08,081 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 03:18:08,083 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 03:33:08,089 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 03:48:08,090 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 04:03:08,091 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 04:18:08,092 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 04:33:08,094 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 04:48:08,095 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 05:03:08,096 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 05:18:08,097 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 05:33:08,098 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 05:48:08,099 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 06:03:08,101 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 06:18:08,102 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 06:33:08,103 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 06:46:13,180 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.11
+2022-05-29 06:46:13,231 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.11
+2022-05-29 06:46:13,232 - octoprint.access.users - INFO - Cleaning up user session DFB1EA5FE0AF482EB6E0CFE9228E704D for user andy
+2022-05-29 06:46:13,232 - octoprint.access.users - INFO - Logged out user: andy
+2022-05-29 06:46:13,233 - octoprint.access.users - INFO - Logged in user: andy
+2022-05-29 06:46:13,305 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.11
+2022-05-29 06:46:14,397 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2022-05-29 06:46:15,483 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-05-29 06:48:08,104 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 07:03:08,106 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 07:18:08,107 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 07:33:08,108 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 07:39:42,337 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.11
+2022-05-29 07:48:08,109 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-29 08:03:08,110 - octoprint.server.heartbeat - INFO - Server heartbeat <3

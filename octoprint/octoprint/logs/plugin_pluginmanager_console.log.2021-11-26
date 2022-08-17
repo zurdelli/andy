@@ -1,0 +1,219 @@
+2021-11-26 08:35:16,631   /usr/local/bin/python -m pip --disable-pip-version-check install file:///tmp/tmp1fb9_vx8/release.zip --no-cache-dir
+2021-11-26 08:35:20,123 > Processing /tmp/tmp1fb9_vx8/release.zip
+2021-11-26 08:35:22,793 > Requirement already satisfied: OctoPrint in /usr/local/lib/python3.8/site-packages (from OctoPrint-WS281x-LED-Status==0.7.2) (1.7.2)
+2021-11-26 08:35:22,794 > Collecting rpi_ws281x>=4.2.5
+2021-11-26 08:35:22,795 > Downloading rpi_ws281x-4.3.1.tar.gz (64 kB)
+2021-11-26 08:35:26,354 > Requirement already satisfied: immutabledict<3,>=2.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.2.1)
+2021-11-26 08:35:26,355 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.8.5)
+2021-11-26 08:35:26,356 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2021.10.11 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2021.10.11)
+2021-11-26 08:35:26,357 > Requirement already satisfied: requests<3,>=2.26.0 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.26.0)
+2021-11-26 08:35:26,357 > Requirement already satisfied: flask<2,>=1.1.4 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.1.4)
+2021-11-26 08:35:26,358 > Requirement already satisfied: Click<8,>=7.1.2 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (7.1.2)
+2021-11-26 08:35:26,358 > Requirement already satisfied: pkginfo<2,>=1.7.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.7.1)
+2021-11-26 08:35:26,358 > Requirement already satisfied: pathvalidate<3,>=2.4.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.5.0)
+2021-11-26 08:35:26,359 > Requirement already satisfied: pyserial<4,>=3.4 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (3.5)
+2021-11-26 08:35:26,359 > Requirement already satisfied: emoji<2,>=1.4.2 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.6.1)
+2021-11-26 08:35:26,359 > Requirement already satisfied: future<1,>=0.18.2 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.18.2)
+2021-11-26 08:35:26,359 > Requirement already satisfied: blinker<2,>=1.4 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.4)
+2021-11-26 08:35:26,360 > Requirement already satisfied: watchdog==0.10.4 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.10.4)
+2021-11-26 08:35:26,360 > Requirement already satisfied: feedparser<7,>=6.0.8 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (6.0.8)
+2021-11-26 08:35:26,360 > Requirement already satisfied: sentry-sdk<2,>=1.3.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.4.3)
+2021-11-26 08:35:26,361 > Requirement already satisfied: zipstream-new<1.2,>=1.1.8 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.1.8)
+2021-11-26 08:35:26,361 > Requirement already satisfied: filetype<2,>=1.0.7 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.0.8)
+2021-11-26 08:35:26,361 > Requirement already satisfied: OctoPrint-PiSupport>=2021.10.28 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2021.10.28)
+2021-11-26 08:35:26,361 > Requirement already satisfied: tornado<7,>=6 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (6.1)
+2021-11-26 08:35:26,362 > Requirement already satisfied: psutil<6,>=5.8 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (5.8.0)
+2021-11-26 08:35:26,362 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.5.0)
+2021-11-26 08:35:26,362 > Requirement already satisfied: pylru<2,>=1.2 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.2.0)
+2021-11-26 08:35:26,363 > Requirement already satisfied: markdown<3.2,>=3.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (3.1.1)
+2021-11-26 08:35:26,363 > Requirement already satisfied: Jinja2<3,>=2.11.3 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.11.3)
+2021-11-26 08:35:26,363 > Requirement already satisfied: websocket-client<1,>=0.59 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.59.0)
+2021-11-26 08:35:26,363 > Requirement already satisfied: PyYAML<6,>=5.4.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (5.4.1)
+2021-11-26 08:35:26,364 > Requirement already satisfied: sarge==0.1.6 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.1.6)
+2021-11-26 08:35:26,364 > Requirement already satisfied: unidecode in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.3.2)
+2021-11-26 08:35:26,364 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.0)
+2021-11-26 08:35:26,365 > Requirement already satisfied: zeroconf<0.34,>=0.33 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.33.4)
+2021-11-26 08:35:26,365 > Requirement already satisfied: netifaces<1,>=0.11 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.11.0)
+2021-11-26 08:35:26,365 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.1.1)
+2021-11-26 08:35:26,365 > Requirement already satisfied: wrapt<1.13,>=1.12.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.12.1)
+2021-11-26 08:35:26,366 > Requirement already satisfied: OctoPrint-FileCheck>=2021.2.23 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2021.2.23)
+2021-11-26 08:35:26,366 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.1.0)
+2021-11-26 08:35:26,366 > Requirement already satisfied: colorlog<6,>=5.0.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (5.0.1)
+2021-11-26 08:35:26,367 > Requirement already satisfied: cachelib<0.2,>=0.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.1.1)
+2021-11-26 08:35:26,367 > Requirement already satisfied: regex!=2018.11.6 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2021.11.2)
+2021-11-26 08:35:26,367 > Requirement already satisfied: netaddr<0.9,>=0.8 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.8.0)
+2021-11-26 08:35:26,368 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.0.1)
+2021-11-26 08:35:26,368 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /usr/local/lib/python3.8/site-packages (from OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.0.0)
+2021-11-26 08:35:26,369 > Requirement already satisfied: pathtools>=0.1.1 in /usr/local/lib/python3.8/site-packages (from watchdog==0.10.4->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.1.2)
+2021-11-26 08:35:26,369 > Requirement already satisfied: sgmllib3k in /usr/local/lib/python3.8/site-packages (from feedparser<7,>=6.0.8->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.0.0)
+2021-11-26 08:35:26,369 > Requirement already satisfied: webassets>=2.0 in /usr/local/lib/python3.8/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.0)
+2021-11-26 08:35:26,370 > Requirement already satisfied: Babel>=2.3 in /usr/local/lib/python3.8/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.9.1)
+2021-11-26 08:35:26,370 > Requirement already satisfied: pytz in /usr/local/lib/python3.8/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2021.3)
+2021-11-26 08:35:26,371 > Requirement already satisfied: setuptools>=36 in /usr/local/lib/python3.8/site-packages (from markdown<3.2,>=3.1->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (57.5.0)
+2021-11-26 08:35:28,330 > Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/local/lib/python3.8/site-packages (from requests<3,>=2.26.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.26.7)
+2021-11-26 08:35:28,331 > Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.8/site-packages (from requests<3,>=2.26.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (3.3)
+2021-11-26 08:35:28,331 > Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.8/site-packages (from requests<3,>=2.26.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2021.10.8)
+2021-11-26 08:35:28,332 > Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.8/site-packages (from requests<3,>=2.26.0->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (2.0.7)
+2021-11-26 08:35:28,332 > Requirement already satisfied: six in /usr/local/lib/python3.8/site-packages (from websocket-client<1,>=0.59->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (1.16.0)
+2021-11-26 08:35:28,333 > Requirement already satisfied: ifaddr>=0.1.7 in /usr/local/lib/python3.8/site-packages (from zeroconf<0.34,>=0.33->OctoPrint->OctoPrint-WS281x-LED-Status==0.7.2) (0.1.7)
+2021-11-26 08:35:28,333 > Building wheels for collected packages: OctoPrint-WS281x-LED-Status, rpi-ws281x
+2021-11-26 08:35:28,333 > Building wheel for OctoPrint-WS281x-LED-Status (setup.py): started
+2021-11-26 08:35:30,656 > Building wheel for OctoPrint-WS281x-LED-Status (setup.py): finished with status 'error'
+2021-11-26 08:35:30,657 > Running setup.py clean for OctoPrint-WS281x-LED-Status
+2021-11-26 08:35:31,175 ! ERROR: Command errored out with exit status 1:
+2021-11-26 08:35:31,192 ! command: /usr/local/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-req-build-gztlw0lu/setup.py'"'"'; __file__='"'"'/tmp/pip-req-build-gztlw0lu/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-n95qtoeo
+2021-11-26 08:35:31,192 ! cwd: /tmp/pip-req-build-gztlw0lu/
+2021-11-26 08:35:31,193 ! Complete output (139 lines):
+2021-11-26 08:35:31,194 ! Found packages: {'octoprint_ws281x_led_status.effects', 'octoprint_ws281x_led_status'}
+2021-11-26 08:35:31,194 ! running bdist_wheel
+2021-11-26 08:35:31,195 ! running build
+2021-11-26 08:35:31,195 ! running build_py
+2021-11-26 08:35:31,195 ! creating build
+2021-11-26 08:35:31,195 ! creating build/lib
+2021-11-26 08:35:31,196 ! creating build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,196 ! creating build/lib/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,196 ! copying octoprint_ws281x_led_status/effects/standard.py -> build/lib/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,197 ! copying octoprint_ws281x_led_status/effects/progress.py -> build/lib/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,197 ! copying octoprint_ws281x_led_status/effects/__init__.py -> build/lib/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,197 ! copying octoprint_ws281x_led_status/settings.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,198 ! copying octoprint_ws281x_led_status/api.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,198 ! copying octoprint_ws281x_led_status/constants.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,198 ! copying octoprint_ws281x_led_status/util.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,199 ! copying octoprint_ws281x_led_status/runner.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,199 ! copying octoprint_ws281x_led_status/wizard.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,199 ! copying octoprint_ws281x_led_status/__init__.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,200 ! copying octoprint_ws281x_led_status/_version.py -> build/lib/octoprint_ws281x_led_status
+2021-11-26 08:35:31,200 ! creating build/lib/octoprint_ws281x_led_status/static
+2021-11-26 08:35:31,200 ! creating build/lib/octoprint_ws281x_led_status/static/css
+2021-11-26 08:35:31,200 ! copying octoprint_ws281x_led_status/static/css/fontawesome5_stripped.css -> build/lib/octoprint_ws281x_led_status/static/css
+2021-11-26 08:35:31,201 ! copying octoprint_ws281x_led_status/static/css/ws281x_led_status.css -> build/lib/octoprint_ws281x_led_status/static/css
+2021-11-26 08:35:31,201 ! creating build/lib/octoprint_ws281x_led_status/static/js
+2021-11-26 08:35:31,201 ! copying octoprint_ws281x_led_status/static/js/ws281x_led_status.js -> build/lib/octoprint_ws281x_led_status/static/js
+2021-11-26 08:35:31,201 ! creating build/lib/octoprint_ws281x_led_status/static/svg
+2021-11-26 08:35:31,202 ! copying octoprint_ws281x_led_status/static/svg/flashlight-outline.svg -> build/lib/octoprint_ws281x_led_status/static/svg
+2021-11-26 08:35:31,202 ! copying octoprint_ws281x_led_status/static/svg/flashlight.svg -> build/lib/octoprint_ws281x_led_status/static/svg
+2021-11-26 08:35:31,202 ! creating build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,202 ! copying octoprint_ws281x_led_status/static/webfonts/fa-brands-400.eot -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,203 ! copying octoprint_ws281x_led_status/static/webfonts/fa-brands-400.ttf -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,203 ! copying octoprint_ws281x_led_status/static/webfonts/fa-regular-400.eot -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,203 ! copying octoprint_ws281x_led_status/static/webfonts/fa-solid-900.svg -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,204 ! copying octoprint_ws281x_led_status/static/webfonts/fa-regular-400.ttf -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,204 ! copying octoprint_ws281x_led_status/static/webfonts/fa-solid-900.woff2 -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,204 ! copying octoprint_ws281x_led_status/static/webfonts/fa-solid-900.ttf -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,204 ! copying octoprint_ws281x_led_status/static/webfonts/fa-brands-400.woff -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,205 ! copying octoprint_ws281x_led_status/static/webfonts/fa-solid-900.eot -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,205 ! copying octoprint_ws281x_led_status/static/webfonts/fa-regular-400.svg -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,205 ! copying octoprint_ws281x_led_status/static/webfonts/fa-regular-400.woff -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,205 ! copying octoprint_ws281x_led_status/static/webfonts/fa-solid-900.woff -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,206 ! copying octoprint_ws281x_led_status/static/webfonts/fa-brands-400.svg -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,206 ! copying octoprint_ws281x_led_status/static/webfonts/fa-regular-400.woff2 -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,206 ! copying octoprint_ws281x_led_status/static/webfonts/fa-brands-400.woff2 -> build/lib/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,207 ! creating build/lib/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,207 ! copying octoprint_ws281x_led_status/templates/ws281x_led_status_wizard.jinja2 -> build/lib/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,207 ! copying octoprint_ws281x_led_status/templates/ws281x_led_status_settings.jinja2 -> build/lib/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,207 ! copying octoprint_ws281x_led_status/templates/ws281x_led_status.jinja2 -> build/lib/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,208 ! copying octoprint_ws281x_led_status/templates/ws281x_led_status_navbar.jinja2 -> build/lib/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,208 ! creating build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,208 ! copying octoprint_ws281x_led_status/templates/settings/printing_effects.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,208 ! copying octoprint_ws281x_led_status/templates/settings/features.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,209 ! copying octoprint_ws281x_led_status/templates/settings/about.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,209 ! copying octoprint_ws281x_led_status/templates/settings/progress_effects.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,209 ! copying octoprint_ws281x_led_status/templates/settings/overview.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,209 ! copying octoprint_ws281x_led_status/templates/settings/strip_modal.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,210 ! copying octoprint_ws281x_led_status/templates/settings/utilities.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,210 ! creating build/lib/octoprint_ws281x_led_status/templates/sub
+2021-11-26 08:35:31,210 ! copying octoprint_ws281x_led_status/templates/sub/config_test.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/sub
+2021-11-26 08:35:31,210 ! creating build/lib/octoprint_ws281x_led_status/templates/macros
+2021-11-26 08:35:31,211 ! copying octoprint_ws281x_led_status/templates/macros/binding.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/macros
+2021-11-26 08:35:31,211 ! copying octoprint_ws281x_led_status/templates/macros/docs.jinja2 -> build/lib/octoprint_ws281x_led_status/templates/macros
+2021-11-26 08:35:31,211 ! UPDATING build/lib/octoprint_ws281x_led_status/_version.py
+2021-11-26 08:35:31,211 ! set build/lib/octoprint_ws281x_led_status/_version.py to '0.7.2'
+2021-11-26 08:35:31,212 ! installing to build/bdist.linux-armv7l/wheel
+2021-11-26 08:35:31,212 ! running install
+2021-11-26 08:35:31,212 ! running install_lib
+2021-11-26 08:35:31,212 ! creating build/bdist.linux-armv7l
+2021-11-26 08:35:31,213 ! creating build/bdist.linux-armv7l/wheel
+2021-11-26 08:35:31,213 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,213 ! copying build/lib/octoprint_ws281x_led_status/settings.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,213 ! copying build/lib/octoprint_ws281x_led_status/api.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,214 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,214 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,214 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/printing_effects.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,215 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/features.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,215 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/about.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,216 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/progress_effects.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,216 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/overview.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,217 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/strip_modal.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,217 ! copying build/lib/octoprint_ws281x_led_status/templates/settings/utilities.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/settings
+2021-11-26 08:35:31,217 ! copying build/lib/octoprint_ws281x_led_status/templates/ws281x_led_status_wizard.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,218 ! copying build/lib/octoprint_ws281x_led_status/templates/ws281x_led_status_settings.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,218 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/sub
+2021-11-26 08:35:31,218 ! copying build/lib/octoprint_ws281x_led_status/templates/sub/config_test.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/sub
+2021-11-26 08:35:31,218 ! copying build/lib/octoprint_ws281x_led_status/templates/ws281x_led_status.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,219 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/macros
+2021-11-26 08:35:31,219 ! copying build/lib/octoprint_ws281x_led_status/templates/macros/binding.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/macros
+2021-11-26 08:35:31,219 ! copying build/lib/octoprint_ws281x_led_status/templates/macros/docs.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates/macros
+2021-11-26 08:35:31,219 ! copying build/lib/octoprint_ws281x_led_status/templates/ws281x_led_status_navbar.jinja2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/templates
+2021-11-26 08:35:31,220 ! copying build/lib/octoprint_ws281x_led_status/constants.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,220 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static
+2021-11-26 08:35:31,220 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/css
+2021-11-26 08:35:31,221 ! copying build/lib/octoprint_ws281x_led_status/static/css/fontawesome5_stripped.css -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/css
+2021-11-26 08:35:31,221 ! copying build/lib/octoprint_ws281x_led_status/static/css/ws281x_led_status.css -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/css
+2021-11-26 08:35:31,221 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/js
+2021-11-26 08:35:31,222 ! copying build/lib/octoprint_ws281x_led_status/static/js/ws281x_led_status.js -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/js
+2021-11-26 08:35:31,222 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/svg
+2021-11-26 08:35:31,222 ! copying build/lib/octoprint_ws281x_led_status/static/svg/flashlight-outline.svg -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/svg
+2021-11-26 08:35:31,223 ! copying build/lib/octoprint_ws281x_led_status/static/svg/flashlight.svg -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/svg
+2021-11-26 08:35:31,223 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,223 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-brands-400.eot -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,223 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-brands-400.ttf -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,224 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-regular-400.eot -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,224 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-solid-900.svg -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,224 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-regular-400.ttf -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,225 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-solid-900.woff2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,225 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-solid-900.ttf -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,225 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-brands-400.woff -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,225 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-solid-900.eot -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,226 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-regular-400.svg -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,226 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-regular-400.woff -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,227 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-solid-900.woff -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,227 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-brands-400.svg -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,227 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-regular-400.woff2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,227 ! copying build/lib/octoprint_ws281x_led_status/static/webfonts/fa-brands-400.woff2 -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/static/webfonts
+2021-11-26 08:35:31,228 ! copying build/lib/octoprint_ws281x_led_status/util.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,228 ! copying build/lib/octoprint_ws281x_led_status/runner.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,228 ! copying build/lib/octoprint_ws281x_led_status/wizard.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,228 ! copying build/lib/octoprint_ws281x_led_status/__init__.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,229 ! creating build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,229 ! copying build/lib/octoprint_ws281x_led_status/effects/standard.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,229 ! copying build/lib/octoprint_ws281x_led_status/effects/progress.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,230 ! copying build/lib/octoprint_ws281x_led_status/effects/__init__.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status/effects
+2021-11-26 08:35:31,230 ! copying build/lib/octoprint_ws281x_led_status/_version.py -> build/bdist.linux-armv7l/wheel/octoprint_ws281x_led_status
+2021-11-26 08:35:31,230 ! running install_egg_info
+2021-11-26 08:35:31,230 ! running egg_info
+2021-11-26 08:35:31,231 ! creating OctoPrint_WS281x_LED_Status.egg-info
+2021-11-26 08:35:31,231 ! writing OctoPrint_WS281x_LED_Status.egg-info/PKG-INFO
+2021-11-26 08:35:31,231 ! writing dependency_links to OctoPrint_WS281x_LED_Status.egg-info/dependency_links.txt
+2021-11-26 08:35:31,232 ! writing entry points to OctoPrint_WS281x_LED_Status.egg-info/entry_points.txt
+2021-11-26 08:35:31,232 ! writing requirements to OctoPrint_WS281x_LED_Status.egg-info/requires.txt
+2021-11-26 08:35:31,232 ! writing top-level names to OctoPrint_WS281x_LED_Status.egg-info/top_level.txt
+2021-11-26 08:35:31,232 ! writing manifest file 'OctoPrint_WS281x_LED_Status.egg-info/SOURCES.txt'
+2021-11-26 08:35:31,233 ! reading manifest file 'OctoPrint_WS281x_LED_Status.egg-info/SOURCES.txt'
+2021-11-26 08:35:31,233 ! writing manifest file 'OctoPrint_WS281x_LED_Status.egg-info/SOURCES.txt'
+2021-11-26 08:35:31,233 ! Copying OctoPrint_WS281x_LED_Status.egg-info to build/bdist.linux-armv7l/wheel/OctoPrint_WS281x_LED_Status-0.7.2-py3.8.egg-info
+2021-11-26 08:35:31,233 ! running install_scripts
+2021-11-26 08:35:31,234 ! error: [Errno 2] No such file or directory: 'LICENSE.txt'
+2021-11-26 08:35:31,234 ! ----------------------------------------
+2021-11-26 08:35:31,234 ! ERROR: Failed building wheel for OctoPrint-WS281x-LED-Status
+2021-11-26 08:35:32,737 > Building wheel for rpi-ws281x (setup.py): started
+2021-11-26 08:35:45,111 > Building wheel for rpi-ws281x (setup.py): finished with status 'done'
+2021-11-26 08:35:45,112 > Created wheel for rpi-ws281x: filename=rpi_ws281x-4.3.1-cp38-cp38-linux_armv7l.whl size=32188 sha256=3a712853116f7819aae143967b275a6d63ad013a3e07774e7366545207010d6a
+2021-11-26 08:35:45,113 > Stored in directory: /tmp/pip-ephem-wheel-cache-5gsy_xh5/wheels/c9/b9/4a/7668b7feda699e795802888ba5e9e0223d9c037eca813a03e1
+2021-11-26 08:35:45,113 > Successfully built rpi-ws281x
+2021-11-26 08:35:45,114 > Failed to build OctoPrint-WS281x-LED-Status
+2021-11-26 08:35:45,114 > Installing collected packages: rpi-ws281x, OctoPrint-WS281x-LED-Status
+2021-11-26 08:35:45,114 > Running setup.py install for OctoPrint-WS281x-LED-Status: started
+2021-11-26 08:35:47,304 > Running setup.py install for OctoPrint-WS281x-LED-Status: finished with status 'done'
+2021-11-26 08:35:47,305 > Successfully installed OctoPrint-WS281x-LED-Status-0.7.2 rpi-ws281x-4.3.1
+2021-11-26 08:35:47,308 ! DEPRECATION: OctoPrint-WS281x-LED-Status was installed using the legacy 'setup.py install' method, because a wheel could not be built for it. A possible replacement is to fix the wheel build issue reported above. You can find discussion regarding this at https://github.com/pypa/pip/issues/8368.
+2021-11-26 08:35:47,309 ! WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv

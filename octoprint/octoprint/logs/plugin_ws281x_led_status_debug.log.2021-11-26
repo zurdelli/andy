@@ -1,0 +1,16 @@
+[2021-11-26 08:39:20,684] INFO: Initialising LED strip
+[2021-11-26 08:39:20,686] ERROR: RuntimeError('ws2811_init failed with code -13 (Unable to initialize SPI)')
+[2021-11-26 08:39:20,687] ERROR: Strip failed to initialize, no effects will be run.
+[2021-11-26 08:39:20,687] INFO: No strip initialised, exiting the effect process.
+[2021-11-26 09:23:23,346] INFO: Initialising LED strip
+[2021-11-26 09:23:23,350] INFO: Strip successfully initialised
+[2021-11-26 09:23:23,351] INFO: Debug logging not enabled, if you are reporting issues please enable it under 'Features' in the settings page.
+[2021-11-26 09:23:23,377] INFO: On message received, turning on LEDs to startup
+[2021-11-26 09:25:30,595] INFO: Kill message recieved, all effects stopped. Bye!
+[2021-11-26 09:25:30,679] INFO: Initialising LED strip
+[2021-11-26 09:25:30,681] INFO: Strip successfully initialised
+[2021-11-26 09:25:30,683] INFO: Debug logging not enabled, if you are reporting issues please enable it under 'Features' in the settings page.
+[2021-11-26 09:25:30,688] INFO: On message received, turning on LEDs to disconnected
+[2021-11-26 09:26:07,697] INFO: Off message received, turning off LEDs (fade: True)
+[2021-11-26 09:26:08,485] INFO: On message received, turning on LEDs to disconnected
+[2021-11-26 09:26:26,169] INFO: Off message received, turning off LEDs (fade: True)

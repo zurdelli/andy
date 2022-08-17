@@ -1,0 +1,445 @@
+2022-06-02 08:18:08,573 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 08:18:08,578 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2022-06-02 08:18:08,579 - octoprint.server - INFO - OctoPrint 1.7.2
+2022-06-02 08:18:08,584 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.12) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2021.10.28) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.4) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-06-02 08:18:08,601 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-06-02 08:18:08,602 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2022-06-02 08:33:08,574 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 08:48:08,576 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 09:03:08,577 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 09:18:08,578 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 09:33:08,580 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 09:48:08,581 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 10:03:08,582 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 10:18:08,583 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 10:33:08,584 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 10:48:08,586 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 11:03:08,587 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 11:18:08,588 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 11:33:08,589 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 11:48:08,590 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 12:03:08,592 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 12:18:08,593 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 12:33:08,594 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 12:48:08,595 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 13:03:08,596 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 13:18:08,597 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 13:33:08,599 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 13:48:08,600 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 14:03:08,601 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 14:18:08,602 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 14:33:08,603 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 14:48:08,605 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 15:03:08,606 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 15:18:08,607 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 15:33:08,608 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 15:48:08,610 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 16:03:08,611 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 16:18:08,612 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 16:33:08,613 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 16:48:08,615 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 17:03:08,616 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 17:18:08,617 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 17:33:08,618 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 17:48:08,619 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 18:03:08,621 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 18:18:08,622 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 18:33:08,623 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 18:48:08,624 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 19:03:08,626 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 19:18:08,627 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 19:33:08,628 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 19:48:08,629 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 20:03:08,630 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 20:18:08,632 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 20:33:08,633 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 20:48:08,634 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 21:03:08,635 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 21:18:08,636 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 21:33:08,638 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 21:48:08,639 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 22:03:08,640 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 22:18:08,641 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 22:33:08,642 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 22:48:08,644 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 23:03:08,645 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 23:18:08,646 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 23:33:08,647 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-02 23:48:08,648 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 00:03:08,649 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 00:18:08,651 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 00:33:08,652 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 00:48:08,653 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 01:03:08,654 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 01:18:08,656 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 01:33:08,657 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 01:48:08,658 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 02:03:08,660 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 02:18:08,661 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 02:33:08,662 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 02:48:08,663 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 03:03:08,664 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 03:18:08,665 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 03:33:08,667 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 03:48:08,668 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 04:03:08,669 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 04:18:08,670 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 04:18:19,442 - octoprint.startup - INFO - ******************************************************************************
+2022-06-03 04:18:19,448 - octoprint.startup - INFO - Starting OctoPrint 1.7.2
+2022-06-03 04:18:19,451 - octoprint.startup - INFO - ******************************************************************************
+2022-06-03 04:18:45,257 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: offline
+2022-06-03 04:18:45,258 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is not working
+2022-06-03 04:18:45,258 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is not working
+2022-06-03 04:18:45,267 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2022-06-03 04:18:45,390 - octoprint.plugin.core - INFO - Loading plugins from /usr/local/lib/python3.8/site-packages/octoprint/plugins, /octoprint/octoprint/plugins and installed plugin packages...
+2022-06-03 04:18:50,593 - octoprint.plugin.core - INFO - Found 24 plugin(s) providing 24 mixin implementations, 53 hook handlers
+2022-06-03 04:18:51,582 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2022-06-03 04:18:51,646 - octoprint.server - INFO - Intermediary server started
+2022-06-03 04:18:51,733 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /octoprint/octoprint/uploads...
+2022-06-03 04:18:52,693 - octoprint.filemanager.storage - INFO - ... file metadata for /octoprint/octoprint/uploads initialized successfully.
+2022-06-03 04:18:52,706 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2022-06-03 04:18:52,707 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2022-06-03 04:18:52,708 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2022-06-03 04:18:52,711 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2022-06-03 04:18:52,715 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2022-06-03 04:18:52,720 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2022-06-03 04:18:52,724 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_ACCESS (needs: "Need(method='role', value='plugin_backup_access')")
+2022-06-03 04:18:52,728 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2022-06-03 04:18:52,732 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2022-06-03 04:18:52,735 - octoprint.server - INFO - Added new permission from plugin pi_support: PLUGIN_PI_SUPPORT_STATUS (needs: "Need(method='role', value='plugin_pi_support_check')")
+2022-06-03 04:18:52,739 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2022-06-03 04:18:52,743 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2022-06-03 04:18:52,746 - octoprint.server - INFO - Added new permission from plugin psucontrol: PLUGIN_PSUCONTROL_CONTROL (needs: "Need(method='role', value='plugin_psucontrol_admin')")
+2022-06-03 04:18:52,750 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2022-06-03 04:18:52,754 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2022-06-03 04:18:52,757 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2022-06-03 04:18:57,018 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-06-03 04:19:00,287 - octoprint.util.pip - INFO - Version of pip is 21.2.4
+2022-06-03 04:19:00,293 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-06-03 04:19:00,293 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-06-03 04:19:01,031 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2022-06-03 04:19:01,062 - octoprint.plugins.softwareupdate - INFO - Cleaned up -1 old update log entries
+2022-06-03 04:19:01,063 - octoprint.plugins.softwareupdate - INFO - Loaded update log from disk
+2022-06-03 04:19:01,480 - octoprint.plugin.core - INFO - Initialized 24 plugin implementation(s)
+2022-06-03 04:19:01,682 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.12) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2021.10.28) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.4) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-06-03 04:19:01,724 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-06-03 04:19:01,748 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-06-03 04:19:01,778 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/webassets...
+2022-06-03 04:19:01,829 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/.webassets-cache...
+2022-06-03 04:19:03,378 - octoprint.server - INFO - Shutting down intermediary server...
+2022-06-03 04:19:03,698 - octoprint.server - INFO - Intermediary server shut down
+2022-06-03 04:19:03,702 - octoprint.events - INFO - Processing startup event, this is our first event
+2022-06-03 04:19:03,703 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2022-06-03 04:19:03,704 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2022-06-03 04:19:03,712 - octoprint.server - INFO - Autoconnect on startup is configured, trying to connect to the printer...
+2022-06-03 04:19:03,830 - octoprint.server - INFO - Trying to connect to configured serial port /dev/ttyAMA0
+2022-06-03 04:19:03,923 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-06-03 04:19:03,925 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-06-03 04:19:03,946 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-06-03 04:19:03,951 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2022-06-03 04:19:03,953 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-06-03 04:19:03,981 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2022-06-03 04:19:04,001 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2022-06-03 04:19:04,815 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._http._tcp.local.' for _http._tcp.local.
+2022-06-03 04:19:05,654 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._octoprint._tcp.local.' for _octoprint._tcp.local.
+2022-06-03 04:19:05,681 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance "Nelly" for SSDP
+2022-06-03 04:19:05,696 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-06-03 04:19:05,801 - octoprint.plugins.psucontrol - INFO - Registered plugin - psucontrol_homeassistant
+2022-06-03 04:19:05,804 - octoprint.plugins.telegram - ERROR - Exception on_startup: 'NoneType' object has no attribute 'port'
+2022-06-03 04:19:05,811 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2022-06-03 04:19:06,015 - octoprint.plugins.pluginmanager - INFO - Looks like we are offline, can't fetch repository from network
+2022-06-03 04:19:06,023 - octoprint.plugins.pluginmanager - INFO - Looks like we are offline, can't fetch notices from network
+2022-06-03 04:19:07,531 - octoprint.plugins.announcements - INFO - Looks like we are offline, can't fetch announcements for channel _important from network
+2022-06-03 04:19:07,537 - octoprint.plugins.announcements - INFO - Looks like we are offline, can't fetch announcements for channel _releases from network
+2022-06-03 04:19:07,543 - octoprint.plugins.announcements - INFO - Looks like we are offline, can't fetch announcements for channel _blog from network
+2022-06-03 04:19:07,549 - octoprint.plugins.announcements - INFO - Looks like we are offline, can't fetch announcements for channel _plugins from network
+2022-06-03 04:19:07,555 - octoprint.plugins.announcements - INFO - Looks like we are offline, can't fetch announcements for channel _octopi from network
+2022-06-03 04:19:09,590 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-06-03 04:19:09,595 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-06-03 04:19:09,596 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-06-03 04:19:09,614 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 20.4GB. That is considered sufficient for updating.
+2022-06-03 04:19:09,615 - octoprint.plugins.softwareupdate - INFO - Not fetching check overlays, we are offline
+2022-06-03 04:19:24,958 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-06-03 04:19:24,961 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-06-03 04:19:24,961 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-06-03 04:19:25,123 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2022-06-03 04:19:28,363 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:19:33,988 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-06-03 04:19:34,604 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:19:35,232 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while initially trying to connect to telegram (Listener not running: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1895776128:AAF1pWCojd2qg2U3-u9BCPc4BvI_PUtocs4/getMe (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69cb3220>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')).  Waiting 2 minutes before trying again.)
+2022-06-03 04:19:35,236 - octoprint.plugins.telegram - ERROR - Can't load UserImage: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1111111111:AAA1aAAaaa1aa1A1-a1AAAa1AaA_AAaaaa1/getUserProfilePhotos?limit=1&user_id=901410451 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69cb3118>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x69cb3118>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1895776128:AAF1pWCojd2qg2U3-u9BCPc4BvI_PUtocs4/getUserProfilePhotos?limit=1&user_id=901410451 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69cb3118>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2322, in get_usrPic
+    r = requests.get(
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1895776128:AAF1pWCojd2qg2U3-u9BCPc4BvI_PUtocs4/getUserProfilePhotos?limit=1&user_id=901410451 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69cb3118>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2022-06-03 04:19:35,894 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://192.168.1.12:4000/', 'path': '/', 'query_string': 'l10n=en'}
+2022-06-03 04:19:36,298 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-06-03 04:19:42,882 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:19:44,015 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-06-03 04:19:44,035 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-06-03 04:19:51,012 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:19:54,094 - octoprint.plugins.telegram - ERROR - Caught an exception in _send_msg(): HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1111111111:AAA1aAAaaa1aa1A1-a1AAAa1AaA_AAaaaa1/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69bd0d00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x69bd0d00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1895776128:AAF1pWCojd2qg2U3-u9BCPc4BvI_PUtocs4/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69bd0d00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2154, in _send_msg
+    r = requests.post(
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1895776128:AAF1pWCojd2qg2U3-u9BCPc4BvI_PUtocs4/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69bd0d00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2022-06-03 04:19:55,548 - octoprint.server.preemptive_cache - INFO - ... done in 19.65s
+2022-06-03 04:19:59,162 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:06,613 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:14,763 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:21,004 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:29,163 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:37,322 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:45,482 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:20:53,642 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:36:36,344 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 04:36:36,407 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity changed from offline to online
+2022-06-03 04:36:36,869 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.34s
+2022-06-03 04:36:37,345 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2022-06-03 04:36:39,407 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.55s
+2022-06-03 04:36:39,537 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2022-06-03 04:36:40,692 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.32s
+2022-06-03 04:36:42,411 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.42s
+2022-06-03 04:36:44,201 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.32s
+2022-06-03 04:36:44,895 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2022-06-03 04:37:03,270 - octoprint.plugins.mqtt - INFO - Connected to mqtt broker
+2022-06-03 04:37:19,258 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-03 04:37:23,593 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while initially trying to connect to telegram (Listener not running: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1895776128:AAF1pWCojd2qg2U3-u9BCPc4BvI_PUtocs4/getMe (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x69cb3850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')).  Waiting 2 minutes before trying again.)
+2022-06-03 04:51:36,345 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 05:06:36,345 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 05:21:36,346 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 05:36:36,347 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 05:51:36,348 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 06:06:36,349 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 06:21:36,351 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 06:36:36,352 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 06:51:36,353 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 07:06:36,355 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 07:21:36,356 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 07:36:36,357 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 07:51:36,357 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 08:06:36,358 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 08:21:36,359 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 08:36:36,360 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 08:51:36,361 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 09:06:36,362 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 09:21:36,363 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 09:36:36,364 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 09:51:36,364 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 10:06:36,365 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 10:21:36,366 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 10:36:36,367 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 10:51:36,368 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 11:06:36,369 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 11:21:36,370 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 11:36:36,371 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 11:51:36,372 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 12:06:36,373 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 12:21:36,373 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 12:36:36,374 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 12:51:36,375 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 13:06:36,377 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 13:21:36,378 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 13:36:36,378 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 13:51:36,379 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 14:06:36,380 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 14:21:36,381 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 14:36:36,382 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 14:51:36,382 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 15:06:36,383 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 15:21:36,384 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 15:36:36,384 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 15:51:36,385 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 16:06:36,386 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 16:21:36,387 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 16:36:36,388 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 16:51:36,389 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 17:06:36,390 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 17:21:36,391 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 17:36:36,392 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 17:51:36,393 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 18:06:36,394 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 18:21:36,395 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 18:36:36,396 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 18:51:36,397 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 19:06:36,398 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 19:21:36,399 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 19:36:36,400 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 19:51:36,401 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 20:06:36,402 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 20:21:36,403 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 20:36:36,404 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 20:51:36,405 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-03 21:06:36,406 - octoprint.server.heartbeat - INFO - Server heartbeat <3

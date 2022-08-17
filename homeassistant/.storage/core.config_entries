@@ -1,0 +1,80 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "11eaba9a521833cb44967934cc215eee",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "459435f5fb0abeae1e2090acd662f02b",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "ignore_cec": [],
+                    "known_hosts": [],
+                    "uuid": [],
+                    "user_id": "1e7bb0eed1de4ffa867a932d8702dfea"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cast",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c9e426831feb1d9371e2efb59985139a",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "192.168.1.12",
+                "data": {
+                    "broker": "192.168.1.12",
+                    "port": 1883,
+                    "discovery": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8f68bd6033d17ee5c4984938c2d61a9c",
+                "version": 1,
+                "domain": "kodi",
+                "title": "LibreELE",
+                "data": {
+                    "name": "LibreELE",
+                    "host": "192.168.1.15",
+                    "port": 8080,
+                    "ws_port": 9090,
+                    "username": null,
+                    "password": null,
+                    "ssl": false,
+                    "timeout": 5
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "788c251e-7411-40f4-b614-9f5700c8641f",
+                "disabled_by": null
+            }
+        ]
+    }
+}

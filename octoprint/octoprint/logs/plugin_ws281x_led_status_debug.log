@@ -1,0 +1,5 @@
+[2021-11-27 18:58:36,539] INFO: Initialising LED strip
+[2021-11-27 18:58:36,542] INFO: Strip successfully initialised
+[2021-11-27 18:58:36,544] INFO: Debug logging not enabled, if you are reporting issues please enable it under 'Features' in the settings page.
+[2021-11-27 18:58:36,655] INFO: Off message received, turning off LEDs (fade: True)
+[2021-11-28 13:01:44,506] INFO: Kill message recieved, all effects stopped. Bye!

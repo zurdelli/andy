@@ -1,0 +1,28 @@
+
+poco:
+  name: poco
+  mac:
+  icon:
+  picture:
+  track: true
+
+zte:
+  name: zte
+  mac:
+  icon:
+  picture:
+  track: true
+
+zte2:
+  name: zte2
+  mac:
+  icon:
+  picture:
+  track: true
+
+pocox3:
+  name: pocox3
+  mac:
+  icon:
+  picture:
+  track: true

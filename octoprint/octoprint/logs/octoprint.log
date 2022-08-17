@@ -1,0 +1,1776 @@
+2022-08-15 20:03:04,403 - octoprint.startup - INFO - ******************************************************************************
+2022-08-15 20:03:04,405 - octoprint.startup - INFO - Starting OctoPrint 1.7.2
+2022-08-15 20:03:04,406 - octoprint.startup - INFO - ******************************************************************************
+2022-08-15 20:03:05,386 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity changed from offline to online
+2022-08-15 20:03:05,450 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2022-08-15 20:03:05,451 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2022-08-15 20:03:05,452 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2022-08-15 20:03:05,949 - octoprint.startup - INFO - Blacklist processing done, adding 3 blacklisted plugin versions: roomtemp (any), GcodeEditor (>=0.1.1,<=0.2.8), gcodeleveling (>=0.1.0,<=0.1.1)
+2022-08-15 20:03:05,951 - octoprint.plugin.core - WARNING - Invalid version requirement >=0.1.1,<=0.2.8 for blacklist entry GcodeEditor, ignoring
+2022-08-15 20:03:05,952 - octoprint.plugin.core - WARNING - Invalid version requirement >=0.1.0,<=0.1.1 for blacklist entry gcodeleveling, ignoring
+2022-08-15 20:03:06,147 - octoprint.plugin.core - INFO - Loading plugins from /usr/local/lib/python3.8/site-packages/octoprint/plugins, /octoprint/octoprint/plugins and installed plugin packages...
+2022-08-15 20:03:12,156 - octoprint.plugin.core - INFO - Found 24 plugin(s) providing 24 mixin implementations, 53 hook handlers
+2022-08-15 20:03:12,908 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2022-08-15 20:03:12,934 - octoprint.server - INFO - Intermediary server started
+2022-08-15 20:03:12,999 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /octoprint/octoprint/uploads...
+2022-08-15 20:03:14,886 - octoprint.filemanager.storage - INFO - ... file metadata for /octoprint/octoprint/uploads initialized successfully.
+2022-08-15 20:03:14,897 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2022-08-15 20:03:14,902 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2022-08-15 20:03:14,904 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2022-08-15 20:03:14,908 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2022-08-15 20:03:14,916 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_manage'), Need(method='role', value='plugin_announcements_read')")
+2022-08-15 20:03:14,920 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2022-08-15 20:03:14,925 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_ACCESS (needs: "Need(method='role', value='plugin_backup_access')")
+2022-08-15 20:03:14,929 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2022-08-15 20:03:14,933 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2022-08-15 20:03:14,938 - octoprint.server - INFO - Added new permission from plugin pi_support: PLUGIN_PI_SUPPORT_STATUS (needs: "Need(method='role', value='plugin_pi_support_check')")
+2022-08-15 20:03:14,942 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2022-08-15 20:03:14,947 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2022-08-15 20:03:14,951 - octoprint.server - INFO - Added new permission from plugin psucontrol: PLUGIN_PSUCONTROL_CONTROL (needs: "Need(method='role', value='plugin_psucontrol_admin')")
+2022-08-15 20:03:14,956 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2022-08-15 20:03:14,960 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2022-08-15 20:03:14,964 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2022-08-15 20:03:18,097 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:03:21,775 - octoprint.util.pip - INFO - Version of pip is 21.2.4
+2022-08-15 20:03:21,778 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:03:21,779 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:03:22,483 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2022-08-15 20:03:22,511 - octoprint.plugins.softwareupdate - INFO - Cleaned up -1 old update log entries
+2022-08-15 20:03:22,512 - octoprint.plugins.softwareupdate - INFO - Loaded update log from disk
+2022-08-15 20:03:22,912 - octoprint.plugin.core - INFO - Initialized 24 plugin implementation(s)
+2022-08-15 20:03:23,113 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.12) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2021.10.28) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.4) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-08-15 20:03:23,159 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:03:23,182 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-08-15 20:03:23,211 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/webassets...
+2022-08-15 20:03:23,259 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/.webassets-cache...
+2022-08-15 20:03:25,626 - octoprint.server - INFO - Shutting down intermediary server...
+2022-08-15 20:03:26,019 - octoprint.server - INFO - Intermediary server shut down
+2022-08-15 20:03:26,025 - octoprint.events - INFO - Processing startup event, this is our first event
+2022-08-15 20:03:26,027 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2022-08-15 20:03:26,028 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2022-08-15 20:03:26,035 - octoprint.server - INFO - Autoconnect on startup is configured, trying to connect to the printer...
+2022-08-15 20:03:26,088 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2022-08-15 20:03:27,068 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2022-08-15 20:03:27,525 - octoprint.server - INFO - Trying to connect to configured serial port /dev/ttyAMA0
+2022-08-15 20:03:28,288 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2022-08-15 20:03:28,327 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 20:03:28,343 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 20:03:28,428 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2022-08-15 20:03:28,529 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 20:03:28,545 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:03:28,630 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2022-08-15 20:03:29,708 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._http._tcp.local.' for _http._tcp.local.
+2022-08-15 20:03:30,683 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._octoprint._tcp.local.' for _octoprint._tcp.local.
+2022-08-15 20:03:30,728 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance "Nelly" for SSDP
+2022-08-15 20:03:30,758 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.44s
+2022-08-15 20:03:30,820 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:03:31,911 - octoprint.plugins.psucontrol - INFO - Registered plugin - psucontrol_homeassistant
+2022-08-15 20:03:31,913 - octoprint.plugins.telegram - ERROR - Exception on_startup: 'NoneType' object has no attribute 'port'
+2022-08-15 20:03:31,940 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2022-08-15 20:03:32,264 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2022-08-15 20:03:32,311 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:03:32,327 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:03:32,328 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:03:32,933 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.9s
+2022-08-15 20:03:34,590 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.64s
+2022-08-15 20:03:34,700 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.68s
+2022-08-15 20:03:35,927 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2022-08-15 20:03:36,246 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:03:36,249 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:03:36,250 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:03:36,482 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 20.5GB. That is considered sufficient for updating.
+2022-08-15 20:03:38,225 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:03:38,330 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.74s
+2022-08-15 20:03:38,527 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.75s
+2022-08-15 20:03:41,345 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.58s
+2022-08-15 20:03:41,446 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.57s
+2022-08-15 20:03:45,018 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:03:45,403 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.85s
+2022-08-15 20:03:45,603 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.76s
+2022-08-15 20:03:48,503 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2022-08-15 20:03:50,045 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2022-08-15 20:03:51,239 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:03:57,719 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:03:58,688 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:04:05,719 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:08,696 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-08-15 20:04:08,706 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 20:04:13,718 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:21,879 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:28,838 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:36,998 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:45,159 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:51,399 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:04:56,999 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:05,158 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:11,959 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:20,118 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:28,278 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:36,439 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:44,599 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:05:52,760 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:00,918 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:07,158 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:15,319 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:23,479 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:31,639 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:37,878 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:46,039 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:54,199 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:06:56,583 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:06:58,708 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:07:01,148 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:07:02,359 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:04,741 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:07:10,519 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:12,020 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:07:12,023 - octoprint.server.api - INFO - Actively logging in user andy from 192.168.1.13
+2022-08-15 20:07:12,087 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:07:12,132 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:07:12,134 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:07:12,665 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'path': '/', 'base_url': 'http://192.168.1.18:4000/', 'query_string': 'l10n=en', '_timestamp': 1660594032.665545, '_count': 1}
+2022-08-15 20:07:18,703 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:26,857 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:32,249 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:07:32,311 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:07:32,312 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:07:35,008 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:35,842 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-15 20:07:36,854 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:07:43,162 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:51,318 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:07:57,853 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:07:57,879 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:08:06,039 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:14:10,743 - octoprint.startup - INFO - ******************************************************************************
+2022-08-15 20:14:10,746 - octoprint.startup - INFO - Starting OctoPrint 1.7.2
+2022-08-15 20:14:10,749 - octoprint.startup - INFO - ******************************************************************************
+2022-08-15 20:14:12,316 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity changed from offline to online
+2022-08-15 20:14:12,386 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2022-08-15 20:14:12,387 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2022-08-15 20:14:12,387 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2022-08-15 20:14:12,417 - octoprint.startup - INFO - Blacklist processing done, adding 3 blacklisted plugin versions: roomtemp (any), GcodeEditor (>=0.1.1,<=0.2.8), gcodeleveling (>=0.1.0,<=0.1.1)
+2022-08-15 20:14:12,609 - octoprint.plugin.core - INFO - Loading plugins from /usr/local/lib/python3.8/site-packages/octoprint/plugins, /octoprint/octoprint/plugins and installed plugin packages...
+2022-08-15 20:14:18,822 - octoprint.plugin.core - INFO - Found 24 plugin(s) providing 24 mixin implementations, 53 hook handlers
+2022-08-15 20:14:20,268 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2022-08-15 20:14:20,316 - octoprint.server - INFO - Intermediary server started
+2022-08-15 20:14:20,404 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /octoprint/octoprint/uploads...
+2022-08-15 20:14:21,199 - octoprint.filemanager.storage - INFO - ... file metadata for /octoprint/octoprint/uploads initialized successfully.
+2022-08-15 20:14:21,206 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2022-08-15 20:14:21,207 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2022-08-15 20:14:21,208 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2022-08-15 20:14:21,209 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2022-08-15 20:14:21,210 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2022-08-15 20:14:21,211 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2022-08-15 20:14:21,211 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_ACCESS (needs: "Need(method='role', value='plugin_backup_access')")
+2022-08-15 20:14:21,214 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2022-08-15 20:14:21,216 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2022-08-15 20:14:21,218 - octoprint.server - INFO - Added new permission from plugin pi_support: PLUGIN_PI_SUPPORT_STATUS (needs: "Need(method='role', value='plugin_pi_support_check')")
+2022-08-15 20:14:21,220 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2022-08-15 20:14:21,223 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2022-08-15 20:14:21,225 - octoprint.server - INFO - Added new permission from plugin psucontrol: PLUGIN_PSUCONTROL_CONTROL (needs: "Need(method='role', value='plugin_psucontrol_admin')")
+2022-08-15 20:14:21,227 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2022-08-15 20:14:21,229 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2022-08-15 20:14:21,231 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2022-08-15 20:14:25,542 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:14:29,391 - octoprint.util.pip - INFO - Version of pip is 21.2.4
+2022-08-15 20:14:29,395 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:14:29,397 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:14:30,134 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2022-08-15 20:14:30,162 - octoprint.plugins.softwareupdate - INFO - Cleaned up -1 old update log entries
+2022-08-15 20:14:30,163 - octoprint.plugins.softwareupdate - INFO - Loaded update log from disk
+2022-08-15 20:14:30,577 - octoprint.plugin.core - INFO - Initialized 24 plugin implementation(s)
+2022-08-15 20:14:30,779 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.12) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2021.10.28) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.4) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-08-15 20:14:30,823 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:14:30,848 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-08-15 20:14:30,877 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/webassets...
+2022-08-15 20:14:30,923 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/.webassets-cache...
+2022-08-15 20:14:33,355 - octoprint.server - INFO - Shutting down intermediary server...
+2022-08-15 20:14:33,389 - octoprint.server - INFO - Intermediary server shut down
+2022-08-15 20:14:33,395 - octoprint.events - INFO - Processing startup event, this is our first event
+2022-08-15 20:14:33,396 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2022-08-15 20:14:33,405 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2022-08-15 20:14:33,417 - octoprint.server - INFO - Autoconnect on startup is configured, trying to connect to the printer...
+2022-08-15 20:14:33,452 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2022-08-15 20:14:33,594 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2022-08-15 20:14:35,244 - octoprint.server - INFO - Trying to connect to configured serial port /dev/ttyAMA0
+2022-08-15 20:14:35,734 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 20:14:35,760 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 20:14:35,818 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2022-08-15 20:14:35,833 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2022-08-15 20:14:35,836 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 20:14:35,865 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:14:35,894 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2022-08-15 20:14:37,254 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._http._tcp.local.' for _http._tcp.local.
+2022-08-15 20:14:38,353 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._octoprint._tcp.local.' for _octoprint._tcp.local.
+2022-08-15 20:14:38,408 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance "Nelly" for SSDP
+2022-08-15 20:14:38,505 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:14:39,269 - octoprint.plugins.psucontrol - INFO - Registered plugin - psucontrol_homeassistant
+2022-08-15 20:14:39,271 - octoprint.plugins.telegram - ERROR - Exception on_startup: 'NoneType' object has no attribute 'port'
+2022-08-15 20:14:39,297 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2022-08-15 20:14:39,540 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2022-08-15 20:14:43,538 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:14:43,541 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:14:43,542 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:14:43,626 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 20.5GB. That is considered sufficient for updating.
+2022-08-15 20:14:45,598 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:14:46,468 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2022-08-15 20:14:49,417 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://192.168.1.18:4000/', 'path': '/', 'query_string': 'l10n=en'}
+2022-08-15 20:14:50,299 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2022-08-15 20:14:51,096 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:14:51,344 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:14:57,586 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:04,702 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:05,972 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:15:12,707 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:14,092 - octoprint.server.preemptive_cache - INFO - ... done in 24.68s
+2022-08-15 20:15:15,978 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-08-15 20:15:15,994 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 20:15:20,702 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:28,862 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:37,022 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:45,181 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:15:53,341 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:01,502 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:09,662 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:17,822 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:25,982 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:34,142 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:42,301 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:50,462 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:16:57,751 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:05,902 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:12,140 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:20,301 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:28,461 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:34,701 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:42,862 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:51,022 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:17:59,182 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:07,342 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:14,702 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:22,862 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:31,022 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:39,182 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:41,309 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:18:41,310 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:18:42,465 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:18:42,900 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:18:42,901 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:18:46,864 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-15 20:18:47,450 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:18:48,081 - octoprint.plugins.pi_support - WARNING - Fetching the current throttle state via "/usr/bin/vcgencmd get_throttled" doesn't work
+2022-08-15 20:18:55,662 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:03,822 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:09,682 - octoprint.plugins.softwareupdate - INFO - Starting update of octoprint to 1.8.2...
+2022-08-15 20:19:10,062 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:13,167 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:19:13,170 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:19:13,170 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:19:18,222 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:26,382 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:34,542 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:40,782 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:48,952 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:19:57,102 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:05,271 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:13,432 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:21,582 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:29,744 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:37,902 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:46,062 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:20:54,222 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:00,783 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:02,425 - octoprint.plugins.softwareupdate - INFO - Update of octoprint to 1.8.2 successful!
+2022-08-15 20:21:02,834 - octoprint.plugins.softwareupdate - INFO - Starting update of mqtt to 0.8.13...
+2022-08-15 20:21:08,942 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:17,112 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:21,232 - octoprint.plugins.softwareupdate - INFO - Update of mqtt to 0.8.13 successful!
+2022-08-15 20:21:21,970 - octoprint.plugins.softwareupdate - INFO - Starting update of mqttsubscribe to 0.1.7...
+2022-08-15 20:21:25,262 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:33,421 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:41,582 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:42,376 - octoprint.plugins.softwareupdate - INFO - Update of mqttsubscribe to 0.1.7 successful!
+2022-08-15 20:21:43,096 - octoprint.plugins.softwareupdate - INFO - Starting update of pi_support to 2022.6.13...
+2022-08-15 20:21:49,742 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:21:56,926 - octoprint.plugins.softwareupdate - INFO - Update of pi_support to 2022.6.13 successful!
+2022-08-15 20:21:57,663 - octoprint.plugins.softwareupdate - INFO - Starting update of psucontrol_homeassistant to 1.0.5...
+2022-08-15 20:21:57,902 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:22:06,061 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:22:14,222 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:22:17,291 - octoprint.plugins.softwareupdate - INFO - Update of psucontrol_homeassistant to 1.0.5 successful!
+2022-08-15 20:22:17,904 - octoprint.plugins.softwareupdate - INFO - Saved update log to disk
+2022-08-15 20:22:18,045 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2022-08-15 20:22:18,049 - octoprint.plugins.softwareupdate - INFO - Restarting...
+2022-08-15 20:22:18,101 - octoprint.server - INFO - Shutting down...
+2022-08-15 20:22:18,590 - octoprint.server - INFO - Calling on_shutdown on plugins
+2022-08-15 20:22:18,595 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2022-08-15 20:22:18,620 - octoprint.events - INFO - Event loop shut down
+2022-08-15 20:22:19,909 - octoprint.server - INFO - Goodbye!
+2022-08-15 20:22:32,834 - octoprint.startup - INFO - ******************************************************************************
+2022-08-15 20:22:32,840 - octoprint.startup - INFO - Starting OctoPrint 1.8.2
+2022-08-15 20:22:32,843 - octoprint.startup - INFO - ******************************************************************************
+2022-08-15 20:22:34,190 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity changed from offline to online
+2022-08-15 20:22:34,256 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2022-08-15 20:22:34,257 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2022-08-15 20:22:34,257 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2022-08-15 20:22:34,575 - octoprint.startup - INFO - Blacklist processing done, adding 3 blacklisted plugin versions: roomtemp (any), GcodeEditor (>=0.1.1,<=0.2.8), gcodeleveling (>=0.1.0,<=0.1.1)
+2022-08-15 20:22:34,593 - octoprint.plugin.core - INFO - Loading plugins from /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins, /octoprint/octoprint/plugins and installed plugin packages...
+2022-08-15 20:22:40,207 - octoprint.plugin.core - INFO - Found 24 plugin(s) providing 24 mixin implementations, 53 hook handlers
+2022-08-15 20:22:41,441 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2022-08-15 20:22:41,491 - octoprint.server - INFO - Intermediary server started
+2022-08-15 20:22:41,651 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /octoprint/octoprint/uploads...
+2022-08-15 20:22:42,046 - octoprint.filemanager.storage - INFO - ... file metadata for /octoprint/octoprint/uploads initialized successfully.
+2022-08-15 20:22:42,056 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2022-08-15 20:22:42,057 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2022-08-15 20:22:42,058 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2022-08-15 20:22:42,058 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2022-08-15 20:22:42,059 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_manage'), Need(method='role', value='plugin_announcements_read')")
+2022-08-15 20:22:42,060 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2022-08-15 20:22:42,061 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2022-08-15 20:22:42,062 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_ACCESS (needs: "Need(method='role', value='plugin_backup_access')")
+2022-08-15 20:22:42,064 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2022-08-15 20:22:42,067 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2022-08-15 20:22:42,069 - octoprint.server - INFO - Added new permission from plugin pi_support: PLUGIN_PI_SUPPORT_STATUS (needs: "Need(method='role', value='plugin_pi_support_check')")
+2022-08-15 20:22:42,072 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2022-08-15 20:22:42,074 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2022-08-15 20:22:42,077 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_manage'), Need(method='role', value='plugin_pluginmanager_install')")
+2022-08-15 20:22:42,079 - octoprint.server - INFO - Added new permission from plugin psucontrol: PLUGIN_PSUCONTROL_CONTROL (needs: "Need(method='role', value='plugin_psucontrol_admin')")
+2022-08-15 20:22:42,082 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2022-08-15 20:22:42,084 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2022-08-15 20:22:42,087 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2022-08-15 20:22:45,803 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:22:49,178 - octoprint.util.pip - INFO - Version of pip is 21.2.4
+2022-08-15 20:22:49,216 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:22:49,217 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:22:49,654 - octoprint.plugins.softwareupdate - INFO - Version cache was created for another version of OctoPrint, not using it
+2022-08-15 20:22:49,769 - octoprint.plugins.softwareupdate - INFO - Loaded update log from disk
+2022-08-15 20:22:50,230 - octoprint.plugin.core - INFO - Initialized 24 plugin implementation(s)
+2022-08-15 20:22:50,683 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.13) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.7) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2022.6.13) (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /octoprint/plugins/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-08-15 20:22:50,731 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:22:50,735 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:22:50,766 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|      throttle_check_enabled: true
+|      throttle_check_functional: false
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-08-15 20:22:50,822 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/webassets...
+2022-08-15 20:22:50,877 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/.webassets-cache...
+2022-08-15 20:22:50,880 - octoprint.server - INFO - Reset webasset folder /octoprint/octoprint/generated/.webassets-manifest.json...
+2022-08-15 20:22:53,007 - octoprint.server - INFO - Shutting down intermediary server...
+2022-08-15 20:22:53,102 - octoprint.server - INFO - Intermediary server shut down
+2022-08-15 20:22:53,110 - octoprint.events - INFO - Processing startup event, this is our first event
+2022-08-15 20:22:53,111 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2022-08-15 20:22:53,112 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2022-08-15 20:22:53,120 - octoprint.server - INFO - Autoconnect on startup is configured, trying to connect to the printer...
+2022-08-15 20:22:53,212 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2022-08-15 20:22:53,361 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2022-08-15 20:22:53,875 - octoprint.server - INFO - Trying to connect to configured serial port /dev/ttyAMA0
+2022-08-15 20:22:56,975 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 20:22:56,979 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2022-08-15 20:22:57,012 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2022-08-15 20:22:57,073 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 20:22:57,105 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2022-08-15 20:22:57,458 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 20:22:57,695 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:22:58,866 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._http._tcp.local.' for _http._tcp.local.
+2022-08-15 20:22:59,380 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.43s
+2022-08-15 20:22:59,997 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance "Nelly"._octoprint._tcp.local.' for _octoprint._tcp.local.
+2022-08-15 20:23:00,169 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance "Nelly" for SSDP
+2022-08-15 20:23:00,401 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:23:00,402 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:23:00,773 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:23:00,775 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:23:00,776 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:23:01,298 - octoprint.plugins.psucontrol - INFO - Registered plugin - psucontrol_homeassistant
+2022-08-15 20:23:01,306 - octoprint.plugins.telegram - ERROR - Exception on_startup: 'NoneType' object has no attribute 'port'
+2022-08-15 20:23:01,319 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2022-08-15 20:23:01,596 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:23:01,888 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2022-08-15 20:23:02,178 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.67s
+2022-08-15 20:23:02,668 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.94s
+2022-08-15 20:23:03,600 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:23:04,040 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2022-08-15 20:23:04,050 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:23:04,975 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:23:04,977 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:23:05,516 - octoprint.util.pip - INFO - Using "/usr/local/bin/python -m pip" as command to invoke pip
+2022-08-15 20:23:05,518 - octoprint.util.pip - INFO - pip installs to /usr/local/lib/python3.8/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2022-08-15 20:23:05,519 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2022-08-15 20:23:05,796 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 20.4GB. That is considered sufficient for updating.
+2022-08-15 20:23:06,301 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.65s
+2022-08-15 20:23:06,625 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.89s
+2022-08-15 20:23:10,486 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.97s
+2022-08-15 20:23:10,570 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 1.0s
+2022-08-15 20:23:11,863 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:23:13,264 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2022-08-15 20:23:15,360 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.62s
+2022-08-15 20:23:15,598 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.64s
+2022-08-15 20:23:17,989 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:23:20,113 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://192.168.1.18:4000/', 'path': '/', 'query_string': 'l10n=en'}
+2022-08-15 20:23:22,232 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2022-08-15 20:23:25,308 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:23:25,310 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:23:26,145 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:23:26,656 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-15 20:23:27,694 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:23:27,696 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:23:27,907 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:23:34,281 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:23:34,283 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:23:34,312 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:23:37,975 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-08-15 20:23:38,081 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 20:23:42,550 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:23:48,131 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:23:49,578 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:23:49,579 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:23:50,804 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:23:51,448 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:23:51,451 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:23:59,210 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:07,433 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:12,866 - octoprint.server.preemptive_cache - INFO - ... done in 52.75s
+2022-08-15 20:24:14,865 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:24:14,867 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:24:15,871 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:16,764 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:24:16,766 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:24:19,069 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:24:19,526 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:24:19,527 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:24:23,992 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:28,083 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-15 20:24:28,762 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:24:28,763 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:24:32,142 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:40,302 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:48,462 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:24:56,622 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:04,782 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:12,942 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:21,102 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:29,262 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:31,220 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-15 20:25:32,381 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:37,422 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:43,210 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 20:25:43,238 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 20:25:43,294 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 20:25:43,342 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:25:45,592 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:48,702 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:25:56,862 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:05,022 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:13,182 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:13,354 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:26:21,342 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:23,388 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-08-15 20:26:23,454 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 20:26:27,902 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:36,061 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:44,232 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:26:52,382 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:00,541 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:08,702 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:13,087 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-15 20:27:16,062 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:16,064 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:24,222 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:26,597 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 20:27:26,617 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 20:27:26,640 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 20:27:26,663 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:27:27,353 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-08-15 20:27:53,215 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-15 20:27:56,702 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:27:58,725 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:28:03,541 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 20:28:04,306 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:28:04,307 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:28:05,090 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:28:05,091 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:28:05,461 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 20:28:05,550 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 20:28:05,551 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 20:28:13,542 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-15 20:28:14,216 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 20:28:14,218 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 20:28:39,673 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-08-15 20:28:39,747 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 20:28:50,274 - octoprint.plugins.psucontrol - INFO - Switching PSU Off
+2022-08-15 20:28:50,347 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 20:37:41,446 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 20:52:41,448 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 20:54:00,552 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-15 20:54:11,175 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 20:54:11,186 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 20:54:11,218 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 20:54:11,240 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:54:46,999 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:54:47,041 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:54:47,047 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2022-08-15 20:54:47,285 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 20:54:47,336 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 2.0.4.3 (GitHub)"
+2022-08-15 20:54:47,350 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2022-08-15 20:55:24,517 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2022-08-15 20:55:24,523 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2022-08-15 21:02:29,751 - octoprint.filemanager.analysis - INFO - Starting analysis of local:Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode
+2022-08-15 21:02:29,822 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode
+2022-08-15 21:02:38,488 - octoprint.filemanager.analysis - INFO - Analysis of entry local:Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode finished, needed 8.74s
+2022-08-15 21:06:02,415 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode, owner: andy, user: andy
+2022-08-15 21:06:04,480 - octoprint.util.comm - INFO - Starting job on behalf of user andy
+2022-08-15 21:06:04,484 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2022-08-15 21:06:04,520 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode, owner: andy, user: andy
+2022-08-15 21:06:04,652 - octoprint.plugins.telegram.TMSG - INFO - get thumbnail url for path=Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode
+2022-08-15 21:06:04,694 - octoprint.plugins.telegram.TMSG - INFO - thumbnail =None
+2022-08-15 21:06:04,772 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:06:04,794 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2022-08-15 21:07:41,449 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 21:11:27,904 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 4126, current line = 4128
+| Last lines in terminal:
+| Recv: ok
+| Send: N4120 G1 X198.566 Y205.689 E169.66972*82
+| Recv: ok
+| Send: N4121 G1 X198.629 Y204.498 E169.70939*80
+| Recv: ok
+| Send: N4122 G1 X198.729 Y203.367 E169.74715*86
+| Recv: ok
+| Send: N4123 G1 X198.877 Y202.159 E169.78763*80
+| Recv: ok
+| Send: N4124 G1 X199.073 Y200.923 E169.82925*84
+| Recv: ok
+| Send: N4125 G1 X199.289 Y199.824 E169.8665*110
+| Recv:  T:240.00 /240.00 B:69.91 /70.00 @:119 B@:127
+| Recv: ok
+| Send: N4126 G1 X199.56 Y198.649 E169.90661*108
+| Recv: echo:Unknown command: "&&¤199.56 Y198.649 E169.90661"
+| Recv: ok
+| Send: N4127 G1 X199.863 Y197.523 E169.94539*89
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 4125
+| Recv: Resend: 4126
+2022-08-15 21:11:28,264 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 4133, current line = 4135
+| Last lines in terminal:
+| Send: N4126 G1 X199.56 Y198.649 E169.90661*108
+| Recv: ok
+| Send: N4127 G1 X199.863 Y197.523 E169.94539*89
+| Recv: ok
+| Send: N4128 G1 X200.214 Y196.375 E169.98532*92
+| Recv: ok
+| Send: N4129 G1 X200.602 Y195.25 E170.0249*89
+| Recv: ok
+| Send: N4130 G1 X201.027 Y194.147 E170.06422*88
+| Recv: ok
+| Send: N4131 G1 X201.484 Y193.069 E170.10316*89
+| Recv: ok
+| Send: N4132 G1 X201.991 Y191.981 E170.14308*85
+| Recv: ok
+| Send: N4133 G1 X202.524 Y190.937 E170.18207*91
+| Recv: echo:Unknown command: "¦¦H202.524 Y190.937 E170.18207"
+| Recv: ok
+| Send: N4134 G1 X203.106 Y189.888 E170.22197*87
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 4132
+| Recv: Resend: 4133
+2022-08-15 21:12:10,104 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 4761, current line = 4763
+| Last lines in terminal:
+| Recv: ok
+| Send: N4755 G1 X213.417 Y182.527 E197.9873*98
+| Recv: ok
+| Send: N4756 G1 X212.521 Y183.256 E198.02572*92
+| Recv:  T:240.00 /240.00 B:70.36 /70.00 @:117 B@:0
+| Recv: ok
+| Send: N4757 G1 X211.654 Y184.02 E198.06416*108
+| Recv: ok
+| Send: N4758 G1 X210.816 Y184.815 E198.10258*95
+| Recv: ok
+| Send: N4759 G1 X210.007 Y185.641 E198.14103*81
+| Recv: ok
+| Send: N4760 G1 X209.23 Y186.496 E198.17946*100
+| Recv: ok
+| Send: N4761 G1 X208.486 Y187.379 E198.21786*95
+| Recv: echo:Unknown command: "ӓH208.486 Y187.379 E198.21786"
+| Recv: ok
+| Send: N4762 G1 X207.775 Y188.291 E198.25632*94
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 4760
+| Recv: Resend: 4761
+2022-08-15 21:13:42,146 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 5995, current line = 5996
+| Last lines in terminal:
+| Send: N5987 G1 X42.51 Y196.146 E251.68657*82
+| Recv: ok
+| Send: N5988 G1 X42.532 Y194.933 E251.72692*103
+| Recv: ok
+| Send: N5989 G1 X42.595 Y193.742 E251.76659*103
+| Recv: ok
+| Send: N5990 G1 X42.699 Y192.554 E251.80626*101
+| Recv:  T:240.00 /240.00 B:69.70 /70.00 @:111 B@:0
+| Recv: ok
+| Send: N5991 G1 X42.847 Y191.363 E251.84617*110
+| Recv: ok
+| Send: N5992 G1 X43.036 Y190.171 E251.88632*105
+| Recv: ok
+| Send: N5993 G1 X43.265 Y189 E251.926*119
+| Recv: ok
+| Send: N5994 G1 X43.538 Y187.818 E251.96635*108
+| Recv: ok
+| Send: N5995 G1 X43.846 Y186.674 E252.00575*103
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 5994
+| Recv: Resend: 5995
+2022-08-15 21:13:45,862 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:13:45,921 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 5999, current line = 6002
+| Last lines in terminal:
+| Recv: Resend: 5995
+| Recv: ok
+| Send: N5995 G1 X43.846 Y186.674 E252.00575*103
+| Recv: ok
+| Send: N5996 G1 X44.201 Y185.513 E252.04613*108
+| Recv: ok
+| Send: N5997 G1 X44.592 Y184.38 E252.086*83
+| Recv: ok
+| Send: N5998 G1 X45.02 Y183.267 E252.12566*86
+| Recv: ok
+| Send: N5999 G1 X45.487 Y182.169 E252.16534*97
+| Recv:  T:240.31 /240.00 B:69.57 /70.00 @:105 B@:127
+| Recv:  T:240.00 /240.00 B:69.78 /70.00 @:127 B@:127
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N6000 M105*17
+| Recv: echo:Unknown command: "Eªr¢ÂºÂr²Ê%ªr²ª¢RÊºüN6000 M105"
+| Recv: ok
+| Send: N6001 G1 X46 Y181.069 E252.20571*122
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 5998
+| Recv: Resend: 5999
+2022-08-15 21:14:09,862 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:14:09,892 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 6294, current line = 6297
+| Last lines in terminal:
+| Send: N6289 G1 X42.847 Y191.363 E261.97114*106
+| Recv: ok
+| Send: N6290 G1 X43.036 Y190.171 E262.01128*110
+| Recv: ok
+| Send: N6291 G1 X43.265 Y189 E262.05096*122
+| Recv: ok
+| Send: N6292 G1 X43.538 Y187.818 E262.09131*103
+| Recv: ok
+| Send: N6293 G1 X43.846 Y186.674 E262.13072*106
+| Recv: ok
+| Send: N6294 G1 X44.201 Y185.513 E262.1711*83
+| Recv:  T:240.00 /240.00 B:70.40 /70.00 @:103 B@:0
+| Recv:  T:240.00 /240.00 B:70.28 /70.00 @:125 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N6295 M105*31
+| Recv: echo:Unknown command: "	üN6295 M105"
+| Recv: ok
+| Send: N6296 G1 X44.592 Y184.38 E262.21096*91
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 6293
+| Recv: Resend: 6294
+2022-08-15 21:14:36,860 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 6692, current line = 6694
+| Last lines in terminal:
+| Recv:  T:240.00 /240.00 B:69.87 /70.00 @:110 B@:127
+| Recv: ok
+| Send: N6686 G0 X45.468 Y183.634*38
+| Recv: ok
+| Send: N6687 G1 F1500 X53.622 Y175.479 E280.17993*9
+| Recv: ok
+| Send: N6688 G0 F9000 X53.949 Y175.776*64
+| Recv: ok
+| Send: N6689 G0 X56.486 Y173.238*44
+| Recv: ok
+| Send: N6690 G0 X56.195 Y172.906*36
+| Recv: ok
+| Send: N6691 G1 F1500 X57.579 Y171.522 E280.24503*9
+| Recv: ok
+| Send: N6692 G0 F9000 X57.864 Y171.315*68
+| Recv: echo:Unknown command: "6692 G0 F9000 X57.864 Y171.315"
+| Recv: ok
+| Send: N6693 G1 F2700 E275.24503*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 6691
+| Recv: Resend: 6692
+2022-08-15 21:14:43,863 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:14:43,920 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 6713, current line = 6716
+| Last lines in terminal:
+| Recv: ok
+| Send: N6709 G1 X42.53 Y197.338 E280.39082*87
+| Recv: ok
+| Send: N6710 G1 X42.51 Y196.146 E280.43047*83
+| Recv: ok
+| Send: N6711 G1 X42.532 Y194.933 E280.47082*103
+| Recv: ok
+| Send: N6712 G1 X42.595 Y193.742 E280.51049*102
+| Recv: ok
+| Send: N6713 G1 X42.699 Y192.554 E280.55015*97
+| Recv:  T:240.00 /240.00 B:70.32 /70.00 @:111 B@:0
+| Recv:  T:240.31 /240.00 B:70.24 /70.00 @:84 B@:0
+| Recv:  T:240.00 /240.00 B:70.20 /70.00 @:127 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N6714 M105*19
+| Recv: echo:Unknown command: "úÿª¢%ÂrªªªRÊºüN6714 M105"
+| Recv: ok
+| Send: N6715 G1 X42.847 Y191.363 E280.59007*100
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 6712
+| Recv: Resend: 6713
+2022-08-15 21:14:44,435 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 6738, current line = 6739
+| Last lines in terminal:
+| Recv: ok
+| Send: N6730 G1 X49.801 Y174.989 E281.18852*99
+| Recv: ok
+| Send: N6731 G1 X50.556 Y174.056 E281.22844*96
+| Recv: ok
+| Send: N6732 G1 X51.348 Y173.146 E281.26856*107
+| Recv: ok
+| Send: N6733 G1 X52.171 Y172.263 E281.30871*102
+| Recv: ok
+| Send: N6734 G1 X53.009 Y171.425 E281.34813*105
+| Recv: ok
+| Send: N6735 G1 X53.887 Y170.607 E281.38804*111
+| Recv: ok
+| Send: N6736 G1 X54.803 Y169.81 E281.42842*88
+| Recv: ok
+| Send: N6737 G1 X55.735 Y169.056 E281.46829*97
+| Recv: ok
+| Send: N6738 G1 X56.209 Y168.698 E281.48805*98
+| Recv: Error:No Checksum with line number, Last Line: 6737
+| Recv: Resend: 6738
+2022-08-15 21:15:15,864 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:15,911 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 7184, current line = 7186
+| Last lines in terminal:
+| Send: N7178 G1 X44.57 Y185.64 E299.03211*100
+| Recv: ok
+| Send: N7179 G1 X44.958 Y184.514 E299.07172*98
+| Recv: ok
+| Send: N7180 G1 X45.382 Y183.413 E299.11096*101
+| Recv: ok
+| Send: N7181 G1 X45.84 Y182.334 E299.14995*93
+| Recv: ok
+| Send: N7182 G1 X46.347 Y181.246 E299.18987*105
+| Recv: ok
+| Send: N7183 G1 X46.88 Y180.201 E299.22889*92
+| Recv: ok
+| Send: N7184 G1 X47.462 Y179.152 E299.26879*98
+| Recv:  T:240.00 /240.00 B:69.83 /70.00 @:81 B@:127
+| Recv:  T:240.31 /240.00 B:70.16 /70.00 @:99 B@:0
+| Recv:  T:240.00 /240.00 B:70.16 /70.00 @:127 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7185 M105*28
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7183
+| Recv: Resend: 7184
+2022-08-15 21:15:18,683 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 7251, current line = 7252
+| Last lines in terminal:
+| Recv: ok
+| Send: N7243 G1 F1500 X43.139 Y193.883 E301.74344*4
+| Recv: ok
+| Send: N7244 G0 F9000 X43.188 Y193.267*76
+| Recv: ok
+| Send: N7245 G1 F1500 X46.356 Y190.1 E301.89243*9
+| Recv: ok
+| Send: N7246 G0 F9000 X46.512 Y189.378*72
+| Recv: ok
+| Send: N7247 G1 F1500 X43.242 Y192.648 E302.04624*0
+| Recv: ok
+| Send: N7248 G0 F9000 X43.321 Y192.003*64
+| Recv: ok
+| Send: N7249 G1 F1500 X46.686 Y188.638 E302.20452*14
+| Recv: ok
+| Send: N7250 G0 F9000 X46.884 Y187.875*69
+| Recv: ok
+| Send: N7251 G1 F1500 X43.404 Y191.355 E302.36821*3
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7250
+| Recv: Resend: 7251
+2022-08-15 21:15:23,864 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:23,915 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 7268, current line = 7270
+| Last lines in terminal:
+| Send: N7262 G0 F9000 X48.874 Y183.629*70
+| Recv:  T:240.00 /240.00 B:69.96 /70.00 @:127 B@:0
+| Recv: ok
+| Send: N7263 G0 X49.362 Y182.593*38
+| Recv: ok
+| Send: N7264 G0 X48.972 Y182.393*45
+| Recv: ok
+| Send: N7265 G1 F1500 X44.314 Y187.05 E303.51721*59
+| Recv: ok
+| Send: N7266 G0 F9000 X44.551 Y186.247*77
+| Recv: ok
+| Send: N7267 G1 F1500 X49.587 Y181.212 E303.75406*10
+| Recv: ok
+| Send: N7268 G0 F9000 X49.97 Y181.428*121
+| Recv:  T:240.00 /240.00 B:69.83 /70.00 @:127 B@:0
+| Recv:  T:240.31 /240.00 B:69.70 /70.00 @:87 B@:127
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7269 M105*29
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7267
+| Recv: Resend: 7268
+2022-08-15 21:15:27,864 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:31,865 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:35,864 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:39,883 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:43,883 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:47,883 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:51,887 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:55,888 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:59,888 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:15:59,957 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 7287, current line = 7298
+| Last lines in terminal:
+| Recv:  T:240.00 /240.00 B:70.52 /70.00 @:121 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7293 M105*24
+| Recv:  T:239.75 /240.00 B:70.44 /70.00 @:127 B@:0
+| Recv:  T:240.31 /240.00 B:70.24 /70.00 @:104 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7294 M105*31
+| Recv:  T:240.31 /240.00 B:70.04 /70.00 @:104 B@:0
+| Recv:  T:240.00 /240.00 B:69.87 /70.00 @:126 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7295 M105*30
+| Recv:  T:240.00 /240.00 B:69.66 /70.00 @:123 B@:0
+| Recv:  T:239.75 /240.00 B:69.74 /70.00 @:127 B@:127
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7296 M105*29
+| Recv: echo:Unknown command: "&¥áuÊªRªüN7296 M105"
+| Recv: ok
+| Send: N7297 G0 X47.207 Y179.037*46
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7286
+| Recv: Resend: 7287
+2022-08-15 21:16:03,888 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:03,940 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:03,951 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:07,896 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:11,896 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:15,896 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:19,896 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:23,900 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:23,946 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:27,900 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:31,900 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:35,900 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:35,939 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:39,908 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:43,908 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:47,908 - octoprint.util.comm - INFO - Communication timeout during an active resend, resending same line again to trigger response from printer.
+2022-08-15 21:16:47,959 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:47,971 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:47,981 - octoprint.util.comm - INFO - Ignoring resend request for line 7287, that still originates from lines we sent before we got the first resend request
+2022-08-15 21:16:47,993 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 7287, current line = 7298
+| Last lines in terminal:
+| Communication timeout during an active resend, resending same line again to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7294 M105*31
+| Recv:  T:240.62 /240.00 B:69.87 /70.00 @:44 B@:0
+| Recv:  T:240.00 /240.00 B:69.70 /70.00 @:127 B@:0
+| Communication timeout during an active resend, resending same line again to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7294 M105*31
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7286
+| Recv: Resend: 7287
+| Recv: ok
+| Send: N7295 M105*30
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7286
+| Recv: Resend: 7287
+| Recv: ok
+| Send: N7296 M105*29
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7286
+| Recv: Resend: 7287
+| Recv: ok
+| Send: N7297 G0 X47.207 Y179.037*46
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7286
+| Recv: Resend: 7287
+2022-08-15 21:16:51,908 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:16:55,908 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:16:59,908 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:03,908 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:07,912 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:11,912 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:11,958 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 7306, current line = 7313
+| Last lines in terminal:
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7308 M105*27
+| Recv:  T:240.00 /240.00 B:70.20 /70.00 @:127 B@:0
+| Recv:  T:239.75 /240.00 B:70.08 /70.00 @:127 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7309 M105*26
+| Recv:  T:240.00 /240.00 B:70.00 /70.00 @:117 B@:0
+| Recv:  T:240.00 /240.00 B:69.83 /70.00 @:96 B@:127
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7310 M105*18
+| Recv:  T:239.75 /240.00 B:70.04 /70.00 @:127 B@:127
+| Recv:  T:240.00 /240.00 B:70.36 /70.00 @:126 B@:127
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7311 M105*19
+| Recv:  T:240.00 /240.00 B:70.52 /70.00 @:127 B@:0
+| Recv:  T:240.31 /240.00 B:70.48 /70.00 @:114 B@:0
+| Communication timeout while printing, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+| Send: N7312 M105*16
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 7305
+| Recv: Resend: 7306
+2022-08-15 21:17:25,913 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:29,919 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:33,919 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:37,919 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:41,920 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:45,923 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:49,923 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:53,924 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:17:57,924 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:01,927 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:05,928 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:09,928 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:13,928 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:17,932 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:21,933 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:25,932 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:29,932 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:33,937 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:37,937 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:41,937 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:45,937 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:49,941 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:53,941 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:18:57,941 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:01,941 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:05,945 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:09,945 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:13,945 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:17,945 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:21,950 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:25,950 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:29,950 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:33,950 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:37,954 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:41,954 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:45,954 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:49,955 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:53,959 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:19:57,959 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:01,959 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:05,959 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:09,963 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:13,963 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:17,963 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:21,963 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:25,968 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:29,967 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:33,967 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:37,968 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:41,972 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:45,972 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:49,972 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:53,972 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:20:57,976 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:01,976 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:05,976 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:09,977 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:13,981 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:17,980 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:21,981 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:25,981 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:29,985 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:33,985 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:37,985 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:41,985 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:45,989 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:49,990 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:53,989 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:21:57,990 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:01,994 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:05,994 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:09,994 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:13,994 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:17,998 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:21,998 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:25,999 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:29,999 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:34,002 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:38,003 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:41,450 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 21:22:42,003 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:46,003 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:50,007 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:54,022 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:22:58,008 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:02,008 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:06,012 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:10,012 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:14,012 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:18,012 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:22,016 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:26,017 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:30,016 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:34,017 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:38,021 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:42,021 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:46,021 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:49,480 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 21:23:49,575 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 21:23:49,576 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 21:23:50,035 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:50,467 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 21:23:50,469 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 21:23:50,935 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-15 21:23:51,055 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-15 21:23:51,056 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-15 21:23:54,024 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:58,025 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:23:58,443 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-15 21:23:59,000 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-15 21:23:59,001 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-15 21:24:02,026 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:06,026 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:10,030 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:14,030 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:18,030 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:22,030 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:23,017 - octoprint.util.comm - INFO - Cancelling job on behalf of user andy
+2022-08-15 21:24:23,025 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2022-08-15 21:24:23,111 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode, owner: andy, user: andy
+2022-08-15 21:24:26,034 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:30,034 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:33,829 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x74600b20>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x74600b20>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x74600b20>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x74600b20>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+2022-08-15 21:24:34,034 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:38,035 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:42,038 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:46,039 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:50,038 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:54,039 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:24:58,043 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:02,043 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:06,043 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:10,043 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:14,047 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:18,047 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:22,048 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:26,048 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:30,052 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:34,052 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:38,051 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:42,052 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:46,056 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:50,056 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:54,057 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:25:58,057 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:02,061 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:06,061 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:10,061 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:14,061 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:18,065 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:22,065 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:26,066 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:30,066 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:34,070 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:38,070 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:42,070 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:46,070 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:50,074 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:54,074 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:26:58,074 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:02,075 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:06,078 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:10,079 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:14,079 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:18,079 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:22,083 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:26,083 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:30,083 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:34,083 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:38,087 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:42,088 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:46,088 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:50,088 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:54,092 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:27:58,092 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:02,092 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:06,092 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:10,096 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:14,097 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:18,096 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:22,097 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:26,101 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:30,101 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:34,101 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:38,101 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:42,105 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:46,105 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:49,967 - octoprint.plugins.psucontrol - INFO - Switching PSU Off
+2022-08-15 21:28:53,119 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:56,124 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:28:59,129 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:29:00,180 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:29:00,246 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Offline"
+2022-08-15 21:29:00,304 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 21:29:05,203 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-15 21:29:15,790 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 21:29:15,820 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 21:29:15,834 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 21:29:15,858 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:29:51,642 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:30:01,674 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2022-08-15 21:30:01,765 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 21:31:05,850 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-15 21:31:05,865 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-15 21:31:05,949 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-15 21:31:06,014 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:31:06,054 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:31:06,078 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2022-08-15 21:31:06,527 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:31:06,781 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 2.0.4.3 (GitHub)"
+2022-08-15 21:31:06,875 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2022-08-15 21:32:54,774 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode, owner: andy, user: andy
+2022-08-15 21:32:57,263 - octoprint.util.comm - INFO - Starting job on behalf of user andy
+2022-08-15 21:32:57,275 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2022-08-15 21:32:57,298 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-15 21:32:57,331 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode, owner: andy, user: andy
+2022-08-15 21:32:57,511 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-15 21:32:57,842 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2022-08-15 21:32:57,866 - octoprint.plugins.telegram.TMSG - INFO - get thumbnail url for path=Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode
+2022-08-15 21:32:57,889 - octoprint.plugins.telegram.TMSG - INFO - thumbnail =None
+2022-08-15 21:33:00,062 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2022-08-15 21:33:18,023 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2022-08-15 21:37:41,451 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 21:41:32,762 - octoprint.util.comm - INFO - Cancelling job on behalf of user andy
+2022-08-15 21:41:32,769 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2022-08-15 21:41:32,836 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: Lamparas/MoonLamp/15minTG-CososMoonlamp.gcode, owner: andy, user: andy
+2022-08-15 21:41:33,725 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2022-08-15 21:41:43,101 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6b35d988>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x6b35d988>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6b35d988>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6b35d988>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+2022-08-15 21:47:36,765 - octoprint.plugins.psucontrol - INFO - Idle timeout reached after 6 minute(s). Turning heaters off prior to shutting off PSU.
+2022-08-15 21:47:36,766 - octoprint.plugins.psucontrol - INFO - Heaters below temperature.
+2022-08-15 21:47:36,778 - octoprint.plugins.psucontrol - INFO - Switching PSU Off
+2022-08-15 21:47:36,983 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Offline"
+2022-08-15 21:47:37,025 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-15 21:49:39,144 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-15 21:52:41,452 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 22:07:41,453 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 22:22:41,454 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 22:37:41,455 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 22:52:41,456 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 23:07:41,458 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 23:22:41,459 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 23:37:41,460 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-15 23:52:41,461 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 00:07:41,462 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 00:22:41,463 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 00:37:41,465 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 00:52:41,466 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 01:07:41,472 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 01:22:41,473 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 01:37:41,474 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 01:52:41,475 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 02:07:41,476 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 02:22:41,478 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 02:37:41,479 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 02:52:41,480 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 03:07:41,481 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 03:22:41,482 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 03:37:41,484 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 03:52:41,485 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 04:07:41,486 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 04:22:41,487 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 04:37:41,488 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 04:52:41,489 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 05:07:41,491 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 05:22:41,492 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 05:37:41,493 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 05:52:41,494 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 06:07:41,495 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 06:22:41,496 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 06:37:41,498 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 06:52:41,499 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 07:07:41,500 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 07:22:41,501 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 07:37:41,502 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 07:52:41,503 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 08:07:41,505 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 08:22:41,506 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 08:37:41,507 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 08:52:41,508 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 09:07:41,509 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 09:22:41,511 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 09:37:41,512 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 09:52:41,518 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 10:07:41,519 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 10:22:41,520 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 10:37:41,521 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 10:52:41,522 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 10:53:45,178 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-16 10:53:45,179 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-16 10:53:46,022 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-16 10:53:46,110 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-16 10:53:46,111 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-16 10:53:48,067 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2022-08-16 10:53:53,937 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-16 10:53:54,704 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.22s
+2022-08-16 10:53:55,107 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.3s
+2022-08-16 10:53:55,451 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.22s
+2022-08-16 10:53:55,832 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.24s
+2022-08-16 10:53:56,241 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.24s
+2022-08-16 10:53:56,974 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2022-08-16 10:53:57,441 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-16 10:53:57,442 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-16 10:54:19,872 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-16 10:54:30,789 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-16 10:54:30,829 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-16 10:54:30,876 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-16 10:54:30,962 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 10:54:36,330 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 10:54:36,333 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2022-08-16 10:54:36,524 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 10:54:36,591 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 2.0.4.3 (GitHub)"
+2022-08-16 10:54:36,601 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2022-08-16 10:54:53,105 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer/3.5H.6-Drawer.gcode
+2022-08-16 10:54:53,193 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer/3.5H.6-Drawer.gcode
+2022-08-16 10:55:16,224 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer/3.5H.6-Drawer.gcode finished, needed 23.12s
+2022-08-16 10:55:17,239 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer/7H.6-DrawerHousing.gcode
+2022-08-16 10:55:17,259 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer/7H.6-DrawerHousing.gcode
+2022-08-16 10:56:25,890 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer/7H.6-DrawerHousing.gcode finished, needed 68.65s
+2022-08-16 10:56:39,853 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer/1H.6-Dividerx4.gcode
+2022-08-16 10:56:39,872 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer/1H.6-Dividerx4.gcode
+2022-08-16 10:56:46,427 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer/1H.6-Dividerx4.gcode finished, needed 6.57s
+2022-08-16 11:07:41,523 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 11:10:50,126 - octoprint.plugins.psucontrol - INFO - Idle timeout reached after 6 minute(s). Turning heaters off prior to shutting off PSU.
+2022-08-16 11:10:50,127 - octoprint.plugins.psucontrol - INFO - Heaters below temperature.
+2022-08-16 11:10:50,133 - octoprint.plugins.psucontrol - INFO - Switching PSU Off
+2022-08-16 11:10:50,336 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Offline"
+2022-08-16 11:10:50,377 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-16 11:13:28,362 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-16 11:13:38,956 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-16 11:13:38,968 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-16 11:13:38,999 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-16 11:13:39,013 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 11:13:44,825 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 11:13:44,828 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2022-08-16 11:13:45,023 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 11:13:45,083 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 2.0.4.3 (GitHub)"
+2022-08-16 11:13:45,096 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2022-08-16 11:15:24,052 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2022-08-16 11:15:24,058 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2022-08-16 11:15:45,973 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode
+2022-08-16 11:15:46,060 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode
+2022-08-16 11:17:20,365 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode finished, needed 94.39s
+2022-08-16 11:17:50,570 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 11:17:52,867 - octoprint.util.comm - INFO - Starting job on behalf of user andy
+2022-08-16 11:17:52,877 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2022-08-16 11:17:52,901 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 11:17:53,126 - octoprint.plugins.telegram.TMSG - INFO - get thumbnail url for path=FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode
+2022-08-16 11:17:53,151 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 11:17:53,173 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2022-08-16 11:17:53,184 - octoprint.plugins.telegram.TMSG - INFO - thumbnail =None
+2022-08-16 11:22:41,533 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 11:37:41,534 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 11:46:06,098 - tornado.general - WARNING - error on read: [Errno 113] No route to host
+2022-08-16 11:46:06,101 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-16 11:52:41,535 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 12:07:41,536 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 12:22:41,538 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 12:37:41,539 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 12:52:41,545 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 13:03:36,283 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-16 13:03:36,358 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-16 13:03:36,359 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-16 13:03:36,530 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-16 13:07:41,546 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 13:09:24,926 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.13
+2022-08-16 13:22:41,547 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 13:29:23,829 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-16 13:29:23,830 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-16 13:29:25,030 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.13
+2022-08-16 13:29:25,119 - octoprint.server.util.flask - INFO - Passively logging in user andy from 192.168.1.13
+2022-08-16 13:29:25,120 - octoprint.access.users - INFO - Logged in user: andy
+2022-08-16 13:29:31,283 - octoprint.server.util.sockjs - INFO - User andy logged in on the socket from client 192.168.1.13
+2022-08-16 13:29:31,781 - sarge - WARNING - No process found for Command('/usr/bin/vcgencmd get_throttled')
+2022-08-16 13:29:31,782 - octoprint.plugins.pi_support - WARNING - Command not found: /usr/bin/vcgencmd
+2022-08-16 13:29:40,417 - octoprint.util.comm - INFO - Pausing/resuming job on behalf of user andy
+2022-08-16 13:29:40,418 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Pausing"
+2022-08-16 13:29:40,424 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/2H.6-Drawer4.gcode
+2022-08-16 13:29:40,480 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/2H.6-Drawer4.gcode
+2022-08-16 13:29:42,538 - octoprint.printer.standard.job - INFO - Print job paused - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:29:43,916 - octoprint.util.comm - INFO - Changing monitoring state from "Pausing" to "Paused"
+2022-08-16 13:29:54,451 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6d3d0ec8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x6d3d0ec8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6d3d0ec8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6d3d0ec8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+2022-08-16 13:30:01,896 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/2H.6-Drawer4.gcode finished, needed 21.47s
+2022-08-16 13:30:02,942 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/1.45H.6-Drawer2.gcode
+2022-08-16 13:30:02,997 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/1.45H.6-Drawer2.gcode
+2022-08-16 13:30:18,130 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/1.45H.6-Drawer2.gcode finished, needed 15.19s
+2022-08-16 13:30:19,146 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/1.45H.6-Drawer2.gcode
+2022-08-16 13:30:19,192 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/1.45H.6-Drawer2.gcode
+2022-08-16 13:30:34,604 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/1.45H.6-Drawer2.gcode finished, needed 15.46s
+2022-08-16 13:30:35,635 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/2.5H.6-Drawer8.gcode
+2022-08-16 13:30:35,650 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/2.5H.6-Drawer8.gcode
+2022-08-16 13:31:08,795 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/2.5H.6-Drawer8.gcode finished, needed 33.16s
+2022-08-16 13:31:09,813 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/2.5H.6-Drawer8.gcode
+2022-08-16 13:31:09,855 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/2.5H.6-Drawer8.gcode
+2022-08-16 13:31:43,237 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/2.5H.6-Drawer8.gcode finished, needed 33.42s
+2022-08-16 13:31:44,254 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/2H.6-Drawer3.gcode
+2022-08-16 13:31:44,300 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/2H.6-Drawer3.gcode
+2022-08-16 13:32:03,087 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/2H.6-Drawer3.gcode finished, needed 18.83s
+2022-08-16 13:32:04,097 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/2H.6-Drawer3.gcode
+2022-08-16 13:32:04,142 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/2H.6-Drawer3.gcode
+2022-08-16 13:32:20,818 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/2H.6-Drawer3.gcode finished, needed 16.72s
+2022-08-16 13:32:21,836 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/2H.6-Drawer4.gcode
+2022-08-16 13:32:21,890 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/2H.6-Drawer4.gcode
+2022-08-16 13:32:43,939 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/2H.6-Drawer4.gcode finished, needed 22.10s
+2022-08-16 13:32:44,950 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/3.5H.6-Drawer16.gcode
+2022-08-16 13:32:44,963 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/3.5H.6-Drawer16.gcode
+2022-08-16 13:34:18,340 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/3.5H.6-Drawer16.gcode finished, needed 93.39s
+2022-08-16 13:34:19,358 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/3.5H.6-Drawer16.gcode
+2022-08-16 13:34:19,372 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/3.5H.6-Drawer16.gcode
+2022-08-16 13:35:50,292 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/3.5H.6-Drawer16.gcode finished, needed 90.93s
+2022-08-16 13:36:46,474 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-16 13:37:41,549 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 13:37:51,596 - octoprint.util.comm - INFO - Pausing/resuming job on behalf of user andy
+2022-08-16 13:37:51,597 - octoprint.util.comm - INFO - Changing monitoring state from "Paused" to "Resuming"
+2022-08-16 13:37:51,633 - octoprint.printer.standard.job - INFO - Print job resumed - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:37:51,857 - octoprint.util.comm - INFO - Changing monitoring state from "Resuming" to "Printing"
+2022-08-16 13:37:53,125 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.
+2022-08-16 13:39:36,237 - octoprint.util.comm - INFO - Pausing/resuming job on behalf of user andy
+2022-08-16 13:39:36,239 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Pausing"
+2022-08-16 13:39:37,882 - octoprint.printer.standard.job - INFO - Print job paused - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:39:38,116 - octoprint.util.comm - INFO - Changing monitoring state from "Pausing" to "Paused"
+2022-08-16 13:39:48,219 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6f2db9e8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x6f2db9e8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6f2db9e8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6f2db9e8>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+2022-08-16 13:41:17,478 - octoprint.util.comm - INFO - Pausing/resuming job on behalf of user andy
+2022-08-16 13:41:17,479 - octoprint.util.comm - INFO - Changing monitoring state from "Paused" to "Resuming"
+2022-08-16 13:41:17,517 - octoprint.printer.standard.job - INFO - Print job resumed - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:41:17,722 - octoprint.util.comm - INFO - Changing monitoring state from "Resuming" to "Printing"
+2022-08-16 13:41:37,923 - octoprint.util.comm - INFO - Cancelling job on behalf of user andy
+2022-08-16 13:41:37,933 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2022-08-16 13:41:38,008 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: FunctionalPrints/Drawer2/10.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:41:43,363 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2022-08-16 13:41:48,306 - octoprint.plugins.telegram - ERROR - TimeOut Exception: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6f2db370>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x6f2db370>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/octoprint/plugins/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6f2db370>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram/__init__.py", line 2565, in take_image
+    r = requests.get(snapshot_url, timeout=10, proxies=self.getProxies())
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='192.168.1.13', port=8080): Max retries exceeded with url: /photo.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x6f2db370>, 'Connection to 192.168.1.13 timed out. (connect timeout=10)'))
+2022-08-16 13:46:56,005 - octoprint.plugins.psucontrol - INFO - Switching PSU Off
+2022-08-16 13:46:56,171 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Offline"
+2022-08-16 13:46:56,211 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-08-16 13:51:13,928 - octoprint.filemanager.analysis - INFO - Starting analysis of local:FunctionalPrints/Drawer2/8.5H.6-Shelf.gcode
+2022-08-16 13:51:13,984 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /usr/local/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 --bed-z=0.0 /octoprint/octoprint/uploads/FunctionalPrints/Drawer2/8.5H.6-Shelf.gcode
+2022-08-16 13:52:26,580 - octoprint.filemanager.analysis - INFO - Analysis of entry local:FunctionalPrints/Drawer2/8.5H.6-Shelf.gcode finished, needed 72.65s
+2022-08-16 13:52:26,692 - octoprint.plugins.psucontrol - INFO - Switching PSU On
+2022-08-16 13:52:37,616 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial connection"
+2022-08-16 13:52:37,649 - octoprint.util.comm - INFO - Connecting to port /dev/ttyAMA0, baudrate 250000
+2022-08-16 13:52:37,702 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial connection" to "Connecting"
+2022-08-16 13:52:37,733 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 13:52:41,550 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-08-16 13:52:43,159 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 13:52:43,163 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2022-08-16 13:52:43,366 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 13:52:43,406 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 2.0.4.3 (GitHub)"
+2022-08-16 13:52:43,429 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2022-08-16 13:52:49,157 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: FunctionalPrints/Drawer2/8.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:52:50,646 - octoprint.util.comm - INFO - Starting job on behalf of user andy
+2022-08-16 13:52:50,658 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2022-08-16 13:52:50,688 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: FunctionalPrints/Drawer2/8.5H.6-Shelf.gcode, owner: andy, user: andy
+2022-08-16 13:52:51,007 - octoprint.plugins.telegram.TMSG - INFO - get thumbnail url for path=FunctionalPrints/Drawer2/8.5H.6-Shelf.gcode
+2022-08-16 13:52:51,089 - octoprint.plugins.telegram.TMSG - INFO - thumbnail =None
+2022-08-16 13:52:51,107 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2022-08-16 13:52:51,169 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2022-08-16 13:52:53,384 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2022-08-16 13:53:40,687 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2022-08-16 14:07:41,551 - octoprint.server.heartbeat - INFO - Server heartbeat <3

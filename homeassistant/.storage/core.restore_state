@@ -1,0 +1,527 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.andy",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "andy",
+                    "user_id": "1f89ce006c7b413392ae789f512ba86a",
+                    "friendly_name": "andy",
+                    "entity_picture": "/local/yo.jpg"
+                },
+                "last_changed": "2022-08-15T20:14:33.935673+00:00",
+                "last_updated": "2022-08-15T20:16:54.491701+00:00",
+                "context": {
+                    "id": "b1a63b0d9d2ce17832dce179d107db26",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.radio_station",
+                "state": "Mega 98.3",
+                "attributes": {
+                    "options": [
+                        "Mega 98.3",
+                        "Estacion del Sol",
+                        "Radio Brava",
+                        "Radio 2 103.1",
+                        "Radio A",
+                        "FlaixBac",
+                        "Los 40 principales"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Seleccionar Radio:"
+                },
+                "last_changed": "2022-08-15T20:14:44.932729+00:00",
+                "last_updated": "2022-08-15T20:14:44.932729+00:00",
+                "context": {
+                    "id": "aec7bc3ce26e8654358e4f46262c479d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_datetime.only_time",
+                "state": "00:00:00",
+                "attributes": {
+                    "has_date": false,
+                    "has_time": true,
+                    "editable": false,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "timestamp": 0,
+                    "friendly_name": "Hora"
+                },
+                "last_changed": "2022-08-15T20:14:44.934364+00:00",
+                "last_updated": "2022-08-15T20:14:44.934364+00:00",
+                "context": {
+                    "id": "b5c40d80aaab9ce2693b9d59ff43700a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.despertador",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-08-15T22:00:00.023175+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "despertador",
+                    "friendly_name": "Despertador"
+                },
+                "last_changed": "2022-08-15T20:14:48.517143+00:00",
+                "last_updated": "2022-08-15T22:00:00.098960+00:00",
+                "context": {
+                    "id": "c768cb86c97b31634ee4c3cf431e0552",
+                    "parent_id": "b18e61ce925237560d3bc1789f280019",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.set_alarm",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "setAlarm",
+                    "friendly_name": "Set Alarm"
+                },
+                "last_changed": "2022-08-15T20:14:48.518834+00:00",
+                "last_updated": "2022-08-15T20:14:48.518834+00:00",
+                "context": {
+                    "id": "7f8cc0aa0a0f7f9c7717933971768e6c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.motionlightnoche",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "motionLightNoche",
+                    "friendly_name": "motionLightNoche"
+                },
+                "last_changed": "2022-08-15T20:14:48.521132+00:00",
+                "last_updated": "2022-08-15T20:14:48.521132+00:00",
+                "context": {
+                    "id": "8626f3abff010b85585dead84537a66f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.togglepowerprinter",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "togglePowerPrinter",
+                    "friendly_name": "togglePowerPrinter"
+                },
+                "last_changed": "2022-08-15T20:14:48.522819+00:00",
+                "last_updated": "2022-08-15T20:14:48.522819+00:00",
+                "context": {
+                    "id": "90c311bee3a16f268d335cd20f4c8dec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.togglelightprinter",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-02-03T17:01:37.644415+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "toggleLightPrinter",
+                    "friendly_name": "toggleLightPrinter"
+                },
+                "last_changed": "2022-08-15T20:14:48.524348+00:00",
+                "last_updated": "2022-08-15T20:14:48.524348+00:00",
+                "context": {
+                    "id": "b3727c16cb2ce17754b502354e61e44a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.e3_cooldown",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "tel_ender3_cooldown",
+                    "friendly_name": "e3_cooldown"
+                },
+                "last_changed": "2022-08-15T20:14:48.525847+00:00",
+                "last_updated": "2022-08-15T20:14:48.525847+00:00",
+                "context": {
+                    "id": "65e938890c6f1daba07746e23cbe2b6d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.e3_prepla",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-02-07T22:25:45.827840+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "tel_ender3_preheatpla",
+                    "friendly_name": "e3_prePLA"
+                },
+                "last_changed": "2022-08-15T20:14:48.527913+00:00",
+                "last_updated": "2022-08-15T20:14:48.527913+00:00",
+                "context": {
+                    "id": "2e83cf90b541908e32bfde208447f692",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.e3_prepetg",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "tel_ender3_preheatpetg",
+                    "friendly_name": "e3_prePETG"
+                },
+                "last_changed": "2022-08-15T20:14:48.529753+00:00",
+                "last_updated": "2022-08-15T20:14:48.529753+00:00",
+                "context": {
+                    "id": "4a8ba9a6d46af52d1f339b04230335f0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.automation_8",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "luzentrandoacasa",
+                    "friendly_name": "automation 8"
+                },
+                "last_changed": "2022-08-15T20:14:48.531607+00:00",
+                "last_updated": "2022-08-15T20:14:48.531607+00:00",
+                "context": {
+                    "id": "06c52c50b064cd00c0339f0b995da926",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.enteringhome",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-08-16T08:17:47.595729+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "entrandoacasa",
+                    "friendly_name": "enteringhome"
+                },
+                "last_changed": "2022-08-15T20:14:48.533458+00:00",
+                "last_updated": "2022-08-16T08:18:17.672769+00:00",
+                "context": {
+                    "id": "7e3dce8da97e5b3cd5d93b713585cfcb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.encendido_led_wall",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "encendidoLedWall",
+                    "friendly_name": "Encendido led wall"
+                },
+                "last_changed": "2022-08-15T20:14:48.535064+00:00",
+                "last_updated": "2022-08-15T20:14:48.535064+00:00",
+                "context": {
+                    "id": "970b5897bb1b3293b0afca46f1f60b91",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.ledwall",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "LedWall",
+                    "assumed_state": true
+                },
+                "last_changed": "2022-08-15T20:14:50.024406+00:00",
+                "last_updated": "2022-08-15T20:14:50.024406+00:00",
+                "context": {
+                    "id": "1c9bc838719cf005aa7f072b6c547e83",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.telegram_clima",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2022-08-15T22:00:00.073733+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "telegram_clima"
+                },
+                "last_changed": "2022-08-15T22:00:00.647618+00:00",
+                "last_updated": "2022-08-15T22:00:00.647618+00:00",
+                "context": {
+                    "id": "c768cb86c97b31634ee4c3cf431e0552",
+                    "parent_id": "b18e61ce925237560d3bc1789f280019",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.radio",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2022-08-15T22:00:00.033780+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Reproduce radio en Speaker"
+                },
+                "last_changed": "2022-08-15T22:00:03.137353+00:00",
+                "last_updated": "2022-08-15T22:00:03.137353+00:00",
+                "context": {
+                    "id": "c768cb86c97b31634ee4c3cf431e0552",
+                    "parent_id": "b18e61ce925237560d3bc1789f280019",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.alarma",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2022-08-15T22:00:00.028438+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "alarma"
+                },
+                "last_changed": "2022-08-15T22:00:00.115186+00:00",
+                "last_updated": "2022-08-15T22:00:00.115186+00:00",
+                "context": {
+                    "id": "c768cb86c97b31634ee4c3cf431e0552",
+                    "parent_id": "b18e61ce925237560d3bc1789f280019",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.mqtt1",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Set on Solid Color Mode"
+                },
+                "last_changed": "2022-08-15T20:14:51.947987+00:00",
+                "last_updated": "2022-08-15T20:14:51.947987+00:00",
+                "context": {
+                    "id": "39711ae9238f810d1baeacc87cd0f006",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.mqtt2",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Set on Palette"
+                },
+                "last_changed": "2022-08-15T20:14:51.948800+00:00",
+                "last_updated": "2022-08-15T20:14:51.948800+00:00",
+                "context": {
+                    "id": "98b994bade2585fe49434719a91ac517",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.mqtt3",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Set on Effects mode"
+                },
+                "last_changed": "2022-08-15T20:14:51.949810+00:00",
+                "last_updated": "2022-08-15T20:14:51.949810+00:00",
+                "context": {
+                    "id": "324b8b8345588c0e85739df53f499f49",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.mqtt4",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Change Sequence"
+                },
+                "last_changed": "2022-08-15T20:14:51.950651+00:00",
+                "last_updated": "2022-08-15T20:14:51.950651+00:00",
+                "context": {
+                    "id": "8bd9f44b5cb28175a8a6ab24c80abbd7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.mqtt5",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Turn On"
+                },
+                "last_changed": "2022-08-15T20:14:51.951474+00:00",
+                "last_updated": "2022-08-15T20:14:51.951474+00:00",
+                "context": {
+                    "id": "9f17617eb180ddaeb5f0fc6868053447",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.mqtt6",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Turn Off"
+                },
+                "last_changed": "2022-08-15T20:14:51.952260+00:00",
+                "last_updated": "2022-08-15T20:14:51.952260+00:00",
+                "context": {
+                    "id": "47cab9712e324f6f896af3e41d449134",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "script.entrando",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2022-08-16T08:17:47.604224+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "entrando"
+                },
+                "last_changed": "2022-08-16T08:18:17.664369+00:00",
+                "last_updated": "2022-08-16T08:18:17.664369+00:00",
+                "context": {
+                    "id": "be8160b2d0c0a95dfa288ad410ac42ec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-08-16T14:01:54.592075+00:00"
+        }
+    ]
+}

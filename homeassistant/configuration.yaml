@@ -1,0 +1,121 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+android_ip_webcam:
+  - host: 192.168.1.13
+    sensors:
+      - light
+      - motion
+    switches:
+      - video_recording
+      
+binary_sensor:
+  # - platform: template
+    # sensors:
+      # puerta_abierta:
+        #device_class: door
+        # value_template: >-
+          # {{ state_attr('binary_sensor.0x00158d00043169e9_contact', 'on') }}
+  - platform: rpi_gpio
+    ports:
+      16: amr1
+      20: amr2
+      21: amr3
+          
+device_tracker:
+  - platform: ping
+    hosts:
+      poco: 192.168.1.10
+      pocox3: 192.168.1.16
+      zte: 192.168.1.28
+      zte2: 192.168.1.26
+      
+# http:
+  # ssl_certificate: /config/dehydrated/certs/zurdelli.duckdns.org/fullchain.pem
+  # ssl_key: /config/dehydrated/certs/zurdelli.duckdns.org/privkey.pem
+  # base_url: https://zurdelli.duckdns.org:8123  
+
+input_datetime:
+  only_time:
+    name: Hora
+    has_date: false
+    has_time: true
+
+input_select:
+  radio_station:
+    name: 'Seleccionar Radio:'
+    options:
+      - Mega 98.3
+      - Estacion del Sol
+      - Radio Brava
+      - Radio 2 103.1
+      - Radio A
+      - FlaixBac
+      - Los 40 principales
+
+octoprint:
+  - host: 192.168.1.18
+    port: 4000
+    api_key: !secret octoprint_api_key
+    name: Ender 3
+    number_of_tools: 1
+    sensors:
+      monitored_conditions:
+        - 'Current State'
+        - 'Job Percentage'
+        - 'Time Elapsed'
+        - 'Time Remaining'
+        - 'Temperatures'
+
+panel_iframe:
+  configurator:
+    title: Configurador
+    icon: mdi:wrench
+    url: 'http://192.168.1.18:3218'
+  octoprint:
+    title: Octoprint
+    icon: mdi:cloud-print
+    url: 'http://192.168.1.18:4000'
+  esphome:
+    title: ESPHome
+    icon: mdi:chip
+    url: 'http://192.168.1.18:6052'
+    
+switch:
+  - platform: mqtt
+    unique_id: ledwall
+    name: "LedWall"
+    command_topic: ledwallin
+    payload_on: 5
+    payload_off: 6
+  - platform: rpi_gpio
+    ports:
+      4: rele1
+    invert_logic: true
+  
+  
+  
+telegram_bot:
+  - platform: polling
+    api_key: !secret telegram_api_key
+    parse_mode: html
+    allowed_chat_ids:
+      - !secret telegram_chat_z
+      - !secret telegram_chat_k
+
+# Text to speech
+tts:
+  - platform: google_translate
+  
+weather:
+  - platform: darksky
+    api_key: !secret darksky_api_key
+    mode: daily
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor: !include sensor.yaml
+homeassistant:
+  customize: !include customize.yaml

@@ -1,0 +1,14 @@
+andy:
+    active: true
+    apikey: 7D9997653EC94D779DA91FD3718291BE
+    groups:
+    - users
+    - admins
+    password: ccacb6ec601f4ca640e911e0b71c565ee774dd19a754b876c84800938d1abb480fca019bbf379edc08f32eaacb5d3a12b1ae6553d9b11d951ec61c48ba85c163
+    permissions: []
+    roles:
+    - user
+    - admin
+    settings:
+        interface:
+            language: _default

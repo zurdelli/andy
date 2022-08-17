@@ -1,0 +1,142 @@
+2022-05-31 08:18:08,343 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 08:18:08,354 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2022-05-31 08:18:08,355 - octoprint.server - INFO - OctoPrint 1.7.2
+2022-05-31 08:18:08,361 - octoprint.plugin.core - INFO - 24 plugin(s) registered with the system:
+|  Action Command Notification Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/eventmanager
+|  File Check (2021.2.23) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/logging
+|  MQTT (0.8.12) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqtt
+|  MQTT Subscribe (0.1.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_mqttsubscribe
+|  Pi Support Plugin (2021.10.28) (bundled) = /usr/local/lib/python3.8/site-packages/octoprint_pi_support
+|  Plugin Manager (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/pluginmanager
+|  PSU Control (1.0.6) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol
+|  PSU Control - Home Assistant (1.0.4) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_psucontrol_homeassistant
+|  Software Update (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.6.5) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_telegram
+|  TouchUI (0.3.18) = /octoprint/plugins/lib/python3.8/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /usr/local/lib/python3.8/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-05-31 08:18:08,379 - octoprint.environment - INFO - Detected environment is Python 3.8.12 under Linux (linux). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1200.0
+|    ram: 968052736
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: linux
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Rev 1.2
+|  python:
+|    pip: 21.2.4
+|    version: 3.8.12
+2022-05-31 08:18:08,379 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2022-05-31 08:33:08,344 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 08:48:08,345 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 09:03:08,347 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 09:18:08,348 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 09:33:08,349 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 09:48:08,350 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 10:03:08,351 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 10:18:08,352 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 10:33:08,354 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 10:48:08,355 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 11:03:08,356 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 11:18:08,357 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 11:33:08,358 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 11:48:08,360 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 12:03:08,361 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 12:18:08,362 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 12:33:08,363 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 12:48:08,364 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 13:03:08,365 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 13:18:08,367 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 13:33:08,368 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 13:48:08,369 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 14:03:08,370 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 14:18:08,371 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 14:33:08,372 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 14:48:08,374 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 15:03:08,375 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 15:18:08,376 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 15:33:08,377 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 15:48:08,378 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 16:03:08,380 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 16:18:08,381 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 16:33:08,382 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 16:48:08,383 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 17:03:08,384 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 17:18:08,386 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 17:33:08,387 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 17:48:08,388 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 18:03:08,389 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 18:18:08,391 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 18:33:08,393 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 18:48:08,394 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 19:03:08,395 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 19:18:08,396 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 19:33:08,398 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 19:48:08,399 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 20:03:08,400 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 20:18:08,401 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 20:33:08,402 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 20:48:08,404 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 21:03:08,405 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 21:18:08,406 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 21:33:08,407 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 21:48:08,408 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 22:03:08,409 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 22:18:08,410 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 22:33:08,412 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 22:48:08,413 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 23:03:08,414 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 23:18:08,415 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 23:33:08,417 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-05-31 23:48:08,418 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 00:03:08,419 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 00:18:08,420 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 00:33:08,421 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 00:48:08,423 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 00:59:15,448 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-01 01:03:08,424 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 01:18:08,425 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 01:33:08,427 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 01:48:08,428 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 01:59:18,648 - octoprint.plugins.psucontrol_homeassistant - ERROR - Unable to communicate with server. Check settings.
+2022-06-01 02:03:08,429 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 02:18:08,430 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 02:33:08,432 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 02:48:08,433 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 03:03:08,434 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 03:18:08,435 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 03:33:08,436 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 03:48:08,437 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 04:03:08,438 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 04:18:08,440 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 04:33:08,441 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 04:48:08,442 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 05:03:08,443 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 05:18:08,444 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 05:33:08,446 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 05:48:08,447 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 06:03:08,448 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 06:18:08,449 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 06:33:08,450 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 06:48:08,452 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 07:03:08,453 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 07:18:08,454 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 07:33:08,455 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 07:48:08,456 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-06-01 08:03:08,457 - octoprint.server.heartbeat - INFO - Server heartbeat <3

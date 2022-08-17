@@ -1,0 +1,6 @@
+2021-11-28 13:01:05,323   /usr/local/bin/python -m pip --disable-pip-version-check uninstall --yes OctoPrint-WS281x-LED-Status
+2021-11-28 13:01:08,596 > Found existing installation: OctoPrint-WS281x-LED-Status 0.7.2
+2021-11-28 13:01:08,597 > Uninstalling OctoPrint-WS281x-LED-Status-0.7.2:
+2021-11-28 13:01:08,597 > Successfully uninstalled OctoPrint-WS281x-LED-Status-0.7.2
+2021-11-28 13:01:08,600 ! WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2021-11-28 13:01:08,779 > Cleaning up plugin ws281x_led_status...

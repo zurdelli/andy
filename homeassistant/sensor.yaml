@@ -1,0 +1,30 @@
+- platform: darksky
+  api_key: 21ac761345219bbb63ae7392f289a298
+  forecast:
+    - 0
+  hourly_forecast:
+    - 0
+    - 1
+  monitored_conditions:
+    - summary
+    - icon
+    - temperature
+    - precip_intensity
+    - precip_probability
+    - humidity
+    - temperature_high
+    - temperature_low
+    - hourly_summary
+    - apparent_temperature
+    - precip_intensity_max
+- platform: time_date
+  display_options:
+    - 'time'
+    - 'date'
+    - 'date_time'
+    
+- platform: template
+  sensors:
+    hora_alarma:
+      friendly_name: "Hora de alarma"
+      value_template: "{{ (state_attr('input_datetime.only_time', 'timestamp') | int | timestamp_custom('%H:%M', False)) }}"

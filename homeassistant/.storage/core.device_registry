@@ -1,0 +1,107 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "11eaba9a521833cb44967934cc215eee"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "b973909b898f9df5fe2e05ccf9059b74",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "459435f5fb0abeae1e2090acd662f02b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "55fbc255ec1f2c06e8dc07236c8e152f"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Mini",
+                "name": "Dormitorio principal",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "30a012ab9ce4b38f3107c23beedce8f7",
+                "via_device_id": null,
+                "area_id": "dormitorio",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "8f68bd6033d17ee5c4984938c2d61a9c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "kodi",
+                        "788c251e-7411-40f4-b614-9f5700c8641f"
+                    ]
+                ],
+                "manufacturer": "Kodi",
+                "model": null,
+                "name": "LibreELE",
+                "sw_version": "19.0",
+                "entry_type": null,
+                "id": "f6f832ff1928fdd058860319fc2d179f",
+                "via_device_id": null,
+                "area_id": "salon",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "octoprint",
+                        "6dc5c7bb-3041-4656-8271-65f3409968ef"
+                    ]
+                ],
+                "id": "932db30b8d175bc895c0de3d2c02b4c5",
+                "orphaned_timestamp": 1660595217.4585662
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:be730d4e-556d-37c2-91c8-f27be43c4196"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:be730d4e-556d-37c2-91c8-f27be43c4196"
+                    ]
+                ],
+                "id": "72df68f25ccc8cfa2331ee454d3f817f",
+                "orphaned_timestamp": 1660595230.7219129
+            }
+        ]
+    }
+}

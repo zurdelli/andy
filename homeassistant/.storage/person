@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "andy",
+                "user_id": "1f89ce006c7b413392ae789f512ba86a",
+                "device_trackers": [],
+                "id": "andy"
+            }
+        ]
+    }
+}
